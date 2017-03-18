@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ILDiligence/ILDiligence.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ILDBusinessLogicLayer/ILDBusinessLogicLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ILDNetworkLayer/ILDNetworkLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ILDPersistenceLayer/ILDPersistenceLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
