@@ -10,6 +10,11 @@
 		7FA779941E7CE11000050A6A /* ILDNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA7798A1E7CE11000050A6A /* ILDNetworkLayer.framework */; };
 		7FA779991E7CE11000050A6A /* ILDNetworkLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA779981E7CE11000050A6A /* ILDNetworkLayerTests.m */; };
 		7FA7799B1E7CE11000050A6A /* ILDNetworkLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA7798D1E7CE11000050A6A /* ILDNetworkLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FA77A431E7E6FA800050A6A /* ILDNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA77A411E7E6FA800050A6A /* ILDNetwork.h */; };
+		7FA77A441E7E6FA800050A6A /* ILDNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA77A421E7E6FA800050A6A /* ILDNetwork.m */; };
+		7FA77A481E7E7A9500050A6A /* ILDNetworkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA77A461E7E7A9500050A6A /* ILDNetworkConstants.h */; };
+		7FA77A491E7E7A9500050A6A /* ILDNetworkConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA77A471E7E7A9500050A6A /* ILDNetworkConstants.m */; };
+		C01C23F451E4530F0C7634EC /* Pods_sharedPods_ILDNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD26BFBD1B467755B17B790 /* Pods_sharedPods_ILDNetworkLayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +28,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E10FEE64F2CF913BA528ECC /* Pods-sharedPods-ILDNetworkLayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPods-ILDNetworkLayer.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-sharedPods-ILDNetworkLayer/Pods-sharedPods-ILDNetworkLayer.debug.xcconfig"; sourceTree = "<group>"; };
 		7FA7798A1E7CE11000050A6A /* ILDNetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ILDNetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA7798D1E7CE11000050A6A /* ILDNetworkLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILDNetworkLayer.h; sourceTree = "<group>"; };
 		7FA7798E1E7CE11000050A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FA779931E7CE11000050A6A /* ILDNetworkLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILDNetworkLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA779981E7CE11000050A6A /* ILDNetworkLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILDNetworkLayerTests.m; sourceTree = "<group>"; };
 		7FA7799A1E7CE11000050A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA77A411E7E6FA800050A6A /* ILDNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDNetwork.h; sourceTree = "<group>"; };
+		7FA77A421E7E6FA800050A6A /* ILDNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDNetwork.m; sourceTree = "<group>"; };
+		7FA77A461E7E7A9500050A6A /* ILDNetworkConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDNetworkConstants.h; sourceTree = "<group>"; };
+		7FA77A471E7E7A9500050A6A /* ILDNetworkConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDNetworkConstants.m; sourceTree = "<group>"; };
+		9C93BE4DDCC3DFE1BB70E5BB /* Pods-sharedPods-ILDNetworkLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPods-ILDNetworkLayer.release.xcconfig"; path = "../Pods/Target Support Files/Pods-sharedPods-ILDNetworkLayer/Pods-sharedPods-ILDNetworkLayer.release.xcconfig"; sourceTree = "<group>"; };
+		ADD26BFBD1B467755B17B790 /* Pods_sharedPods_ILDNetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sharedPods_ILDNetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01C23F451E4530F0C7634EC /* Pods_sharedPods_ILDNetworkLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +63,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		647CA7CC5E4C40522DDECF84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E10FEE64F2CF913BA528ECC /* Pods-sharedPods-ILDNetworkLayer.debug.xcconfig */,
+				9C93BE4DDCC3DFE1BB70E5BB /* Pods-sharedPods-ILDNetworkLayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7FA779801E7CE11000050A6A = {
 			isa = PBXGroup;
 			children = (
 				7FA7798C1E7CE11000050A6A /* ILDNetworkLayer */,
 				7FA779971E7CE11000050A6A /* ILDNetworkLayerTests */,
 				7FA7798B1E7CE11000050A6A /* Products */,
+				647CA7CC5E4C40522DDECF84 /* Pods */,
+				BAB18134AEB5F122ED357CEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +95,11 @@
 		7FA7798C1E7CE11000050A6A /* ILDNetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				7FA77A451E7E7A1700050A6A /* Constants */,
 				7FA7798D1E7CE11000050A6A /* ILDNetworkLayer.h */,
 				7FA7798E1E7CE11000050A6A /* Info.plist */,
+				7FA77A411E7E6FA800050A6A /* ILDNetwork.h */,
+				7FA77A421E7E6FA800050A6A /* ILDNetwork.m */,
 			);
 			path = ILDNetworkLayer;
 			sourceTree = "<group>";
@@ -86,6 +113,23 @@
 			path = ILDNetworkLayerTests;
 			sourceTree = "<group>";
 		};
+		7FA77A451E7E7A1700050A6A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7FA77A461E7E7A9500050A6A /* ILDNetworkConstants.h */,
+				7FA77A471E7E7A9500050A6A /* ILDNetworkConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		BAB18134AEB5F122ED357CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADD26BFBD1B467755B17B790 /* Pods_sharedPods_ILDNetworkLayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +137,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA77A481E7E7A9500050A6A /* ILDNetworkConstants.h in Headers */,
 				7FA7799B1E7CE11000050A6A /* ILDNetworkLayer.h in Headers */,
+				7FA77A431E7E6FA800050A6A /* ILDNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,10 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FA7799E1E7CE11000050A6A /* Build configuration list for PBXNativeTarget "ILDNetworkLayer" */;
 			buildPhases = (
+				335C92837C85B2083137F88C /* [CP] Check Pods Manifest.lock */,
 				7FA779851E7CE11000050A6A /* Sources */,
 				7FA779861E7CE11000050A6A /* Frameworks */,
 				7FA779871E7CE11000050A6A /* Headers */,
 				7FA779881E7CE11000050A6A /* Resources */,
+				5548AE4A4C1623CDB4059D08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,11 +240,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		335C92837C85B2083137F88C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5548AE4A4C1623CDB4059D08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-sharedPods-ILDNetworkLayer/Pods-sharedPods-ILDNetworkLayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7FA779851E7CE11000050A6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA77A491E7E7A9500050A6A /* ILDNetworkConstants.m in Sources */,
+				7FA77A441E7E6FA800050A6A /* ILDNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +400,7 @@
 		};
 		7FA7799F1E7CE11000050A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E10FEE64F2CF913BA528ECC /* Pods-sharedPods-ILDNetworkLayer.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -335,6 +419,7 @@
 		};
 		7FA779A01E7CE11000050A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C93BE4DDCC3DFE1BB70E5BB /* Pods-sharedPods-ILDNetworkLayer.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -392,6 +477,7 @@
 				7FA779A01E7CE11000050A6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FA779A11E7CE11000050A6A /* Build configuration list for PBXNativeTarget "ILDNetworkLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +486,7 @@
 				7FA779A31E7CE11000050A6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

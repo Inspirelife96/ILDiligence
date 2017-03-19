@@ -21,6 +21,7 @@
 		7FA77A221E7CEACE00050A6A /* ILDNetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A201E7CEACE00050A6A /* ILDNetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7FA77A241E7CEACE00050A6A /* ILDPersistenceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A231E7CEACE00050A6A /* ILDPersistenceLayer.framework */; };
 		7FA77A251E7CEACE00050A6A /* ILDPersistenceLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A231E7CEACE00050A6A /* ILDPersistenceLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97BDE321E86EEF08CDF49FFC /* Pods_sharedPods_ILDiligence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CEFF9102DE4A9A688449E8 /* Pods_sharedPods_ILDiligence.framework */; };
 		AB685580D55EB85184403339 /* Pods_ILDiligence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC173DA99E06C7B12BF4DF0 /* Pods_ILDiligence.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,8 +59,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		229D9AE58422A2BFC110C8F6 /* Pods-sharedPods-ILDiligence.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPods-ILDiligence.release.xcconfig"; path = "../Pods/Target Support Files/Pods-sharedPods-ILDiligence/Pods-sharedPods-ILDiligence.release.xcconfig"; sourceTree = "<group>"; };
 		49E1C813C9767B44CA5A1468 /* Pods-ILDiligence.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ILDiligence.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ILDiligence/Pods-ILDiligence.release.xcconfig"; sourceTree = "<group>"; };
 		4CC173DA99E06C7B12BF4DF0 /* Pods_ILDiligence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ILDiligence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CEFF9102DE4A9A688449E8 /* Pods_sharedPods_ILDiligence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sharedPods_ILDiligence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA779D11E7CE1DF00050A6A /* ILDiligence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILDiligence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA779D51E7CE1DF00050A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7FA779D71E7CE1DF00050A6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +82,7 @@
 		7FA77A1D1E7CEACE00050A6A /* ILDBusinessLogicLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ILDBusinessLogicLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA77A201E7CEACE00050A6A /* ILDNetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ILDNetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA77A231E7CEACE00050A6A /* ILDPersistenceLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ILDPersistenceLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AA241BCFE4559E59A17792 /* Pods-sharedPods-ILDiligence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPods-ILDiligence.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-sharedPods-ILDiligence/Pods-sharedPods-ILDiligence.debug.xcconfig"; sourceTree = "<group>"; };
 		EA183FC9F8E823A0A8F9A46E /* Pods-ILDiligence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ILDiligence.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ILDiligence/Pods-ILDiligence.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +95,7 @@
 				7FA77A211E7CEACE00050A6A /* ILDNetworkLayer.framework in Frameworks */,
 				7FA77A241E7CEACE00050A6A /* ILDPersistenceLayer.framework in Frameworks */,
 				7FA77A1E1E7CEACE00050A6A /* ILDBusinessLogicLayer.framework in Frameworks */,
+				97BDE321E86EEF08CDF49FFC /* Pods_sharedPods_ILDiligence.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +121,8 @@
 			children = (
 				EA183FC9F8E823A0A8F9A46E /* Pods-ILDiligence.debug.xcconfig */,
 				49E1C813C9767B44CA5A1468 /* Pods-ILDiligence.release.xcconfig */,
+				E1AA241BCFE4559E59A17792 /* Pods-sharedPods-ILDiligence.debug.xcconfig */,
+				229D9AE58422A2BFC110C8F6 /* Pods-sharedPods-ILDiligence.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -191,6 +198,7 @@
 				7FA77A201E7CEACE00050A6A /* ILDNetworkLayer.framework */,
 				7FA77A1D1E7CEACE00050A6A /* ILDBusinessLogicLayer.framework */,
 				4CC173DA99E06C7B12BF4DF0 /* Pods_ILDiligence.framework */,
+				50CEFF9102DE4A9A688449E8 /* Pods_sharedPods_ILDiligence.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -343,7 +351,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ILDiligence/Pods-ILDiligence-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-sharedPods-ILDiligence/Pods-sharedPods-ILDiligence-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B56D45D541C843FDC8E749D1 /* [CP] Check Pods Manifest.lock */ = {
@@ -373,7 +381,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ILDiligence/Pods-ILDiligence-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-sharedPods-ILDiligence/Pods-sharedPods-ILDiligence-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -532,7 +540,7 @@
 		};
 		7FA779FF1E7CE1DF00050A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA183FC9F8E823A0A8F9A46E /* Pods-ILDiligence.debug.xcconfig */;
+			baseConfigurationReference = E1AA241BCFE4559E59A17792 /* Pods-sharedPods-ILDiligence.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 86MNLPUJYP;
@@ -545,7 +553,7 @@
 		};
 		7FA77A001E7CE1DF00050A6A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49E1C813C9767B44CA5A1468 /* Pods-ILDiligence.release.xcconfig */;
+			baseConfigurationReference = 229D9AE58422A2BFC110C8F6 /* Pods-sharedPods-ILDiligence.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 86MNLPUJYP;

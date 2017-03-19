@@ -10,6 +10,16 @@
 		7FA779701E7CE0ED00050A6A /* ILDPersistenceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA779661E7CE0ED00050A6A /* ILDPersistenceLayer.framework */; };
 		7FA779751E7CE0ED00050A6A /* ILDPersistenceLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA779741E7CE0ED00050A6A /* ILDPersistenceLayerTests.m */; };
 		7FA779771E7CE0ED00050A6A /* ILDPersistenceLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA779691E7CE0ED00050A6A /* ILDPersistenceLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FA77A2D1E7E42B000050A6A /* ILDTaskDataPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA77A2B1E7E42B000050A6A /* ILDTaskDataPersistence.h */; };
+		7FA77A2E1E7E42B000050A6A /* ILDTaskDataPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA77A2C1E7E42B000050A6A /* ILDTaskDataPersistence.m */; };
+		7FA77A311E7E42C800050A6A /* ILDDiligenceDataPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA77A2F1E7E42C800050A6A /* ILDDiligenceDataPersistence.h */; };
+		7FA77A321E7E42C800050A6A /* ILDDiligenceDataPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA77A301E7E42C800050A6A /* ILDDiligenceDataPersistence.m */; };
+		7FA77A351E7E438700050A6A /* ILDPersistenceFilePathHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA77A331E7E438700050A6A /* ILDPersistenceFilePathHelper.h */; };
+		7FA77A361E7E438700050A6A /* ILDPersistenceFilePathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA77A341E7E438700050A6A /* ILDPersistenceFilePathHelper.m */; };
+		7FA77A3A1E7E55C200050A6A /* ILDStoryDataPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA77A381E7E55C200050A6A /* ILDStoryDataPersistence.h */; };
+		7FA77A3B1E7E55C200050A6A /* ILDStoryDataPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA77A391E7E55C200050A6A /* ILDStoryDataPersistence.m */; };
+		7FA77A3F1E7E60FF00050A6A /* ILDPersistanceConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA77A3D1E7E60FF00050A6A /* ILDPersistanceConstants.h */; };
+		7FA77A401E7E60FF00050A6A /* ILDPersistanceConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA77A3E1E7E60FF00050A6A /* ILDPersistanceConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,16 @@
 		7FA7796F1E7CE0ED00050A6A /* ILDPersistenceLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILDPersistenceLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA779741E7CE0ED00050A6A /* ILDPersistenceLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILDPersistenceLayerTests.m; sourceTree = "<group>"; };
 		7FA779761E7CE0ED00050A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA77A2B1E7E42B000050A6A /* ILDTaskDataPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDTaskDataPersistence.h; sourceTree = "<group>"; };
+		7FA77A2C1E7E42B000050A6A /* ILDTaskDataPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDTaskDataPersistence.m; sourceTree = "<group>"; };
+		7FA77A2F1E7E42C800050A6A /* ILDDiligenceDataPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDDiligenceDataPersistence.h; sourceTree = "<group>"; };
+		7FA77A301E7E42C800050A6A /* ILDDiligenceDataPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDDiligenceDataPersistence.m; sourceTree = "<group>"; };
+		7FA77A331E7E438700050A6A /* ILDPersistenceFilePathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDPersistenceFilePathHelper.h; sourceTree = "<group>"; };
+		7FA77A341E7E438700050A6A /* ILDPersistenceFilePathHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDPersistenceFilePathHelper.m; sourceTree = "<group>"; };
+		7FA77A381E7E55C200050A6A /* ILDStoryDataPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStoryDataPersistence.h; sourceTree = "<group>"; };
+		7FA77A391E7E55C200050A6A /* ILDStoryDataPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStoryDataPersistence.m; sourceTree = "<group>"; };
+		7FA77A3D1E7E60FF00050A6A /* ILDPersistanceConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDPersistanceConstants.h; sourceTree = "<group>"; };
+		7FA77A3E1E7E60FF00050A6A /* ILDPersistanceConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDPersistanceConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,14 @@
 		7FA779681E7CE0ED00050A6A /* ILDPersistenceLayer */ = {
 			isa = PBXGroup;
 			children = (
+				7FA77A3C1E7E60D200050A6A /* Constants */,
+				7FA77A371E7E441000050A6A /* Utilities */,
+				7FA77A2B1E7E42B000050A6A /* ILDTaskDataPersistence.h */,
+				7FA77A2C1E7E42B000050A6A /* ILDTaskDataPersistence.m */,
+				7FA77A2F1E7E42C800050A6A /* ILDDiligenceDataPersistence.h */,
+				7FA77A301E7E42C800050A6A /* ILDDiligenceDataPersistence.m */,
+				7FA77A381E7E55C200050A6A /* ILDStoryDataPersistence.h */,
+				7FA77A391E7E55C200050A6A /* ILDStoryDataPersistence.m */,
 				7FA779691E7CE0ED00050A6A /* ILDPersistenceLayer.h */,
 				7FA7796A1E7CE0ED00050A6A /* Info.plist */,
 			);
@@ -86,6 +114,24 @@
 			path = ILDPersistenceLayerTests;
 			sourceTree = "<group>";
 		};
+		7FA77A371E7E441000050A6A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7FA77A331E7E438700050A6A /* ILDPersistenceFilePathHelper.h */,
+				7FA77A341E7E438700050A6A /* ILDPersistenceFilePathHelper.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		7FA77A3C1E7E60D200050A6A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7FA77A3D1E7E60FF00050A6A /* ILDPersistanceConstants.h */,
+				7FA77A3E1E7E60FF00050A6A /* ILDPersistanceConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +139,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA77A3F1E7E60FF00050A6A /* ILDPersistanceConstants.h in Headers */,
+				7FA77A351E7E438700050A6A /* ILDPersistenceFilePathHelper.h in Headers */,
+				7FA77A3A1E7E55C200050A6A /* ILDStoryDataPersistence.h in Headers */,
+				7FA77A2D1E7E42B000050A6A /* ILDTaskDataPersistence.h in Headers */,
 				7FA779771E7CE0ED00050A6A /* ILDPersistenceLayer.h in Headers */,
+				7FA77A311E7E42C800050A6A /* ILDDiligenceDataPersistence.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA77A361E7E438700050A6A /* ILDPersistenceFilePathHelper.m in Sources */,
+				7FA77A3B1E7E55C200050A6A /* ILDStoryDataPersistence.m in Sources */,
+				7FA77A2E1E7E42B000050A6A /* ILDTaskDataPersistence.m in Sources */,
+				7FA77A321E7E42C800050A6A /* ILDDiligenceDataPersistence.m in Sources */,
+				7FA77A401E7E60FF00050A6A /* ILDPersistanceConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +448,7 @@
 				7FA7797C1E7CE0ED00050A6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FA7797D1E7CE0ED00050A6A /* Build configuration list for PBXNativeTarget "ILDPersistenceLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +457,7 @@
 				7FA7797F1E7CE0ED00050A6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
