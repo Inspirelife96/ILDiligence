@@ -24,11 +24,25 @@ extern NSString *const kTaskDataAlertTime;
 
 #pragma mark - diligence data column keys
 
-extern NSString *const kDiligenceDataTaskId;
-extern NSString *const kDiligenceDataStartDate;
-extern NSString *const kDiligenceDataEndDate;
-extern NSString *const kDiligenceDataBreakTimes;
-extern NSString *const kDiligenceDataDiligenceTime;
+extern NSString *const kDiligenceConfiguration;
+extern NSString *const kDiligenceTable;
+extern NSString *const kDiligenceTaskIndex;
+extern NSString *const kDiligenceHourIndex;
+extern NSString *const kDiligenceDayIndex;
+extern NSString *const kDiligenceWeekdayIndex;
+
+#pragma mark - diligence configuration column keys
+
+extern NSString *const kDiligenceConfigurationMaxKey;
+extern NSString *const kDiligenceConfigurationVersion;
+
+#pragma mark - diligence table column keys
+
+extern NSString *const kDiligenceTableTaskId;
+extern NSString *const kDiligenceTableStartDate;
+extern NSString *const kDiligenceTableEndDate;
+extern NSString *const kDiligenceTableBreakTimes;
+extern NSString *const kDiligenceTableDiligenceMinutes;
 
 #pragma mark - story data column keys
 

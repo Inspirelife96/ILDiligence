@@ -12,6 +12,26 @@
 		7FA779BF1E7CE16600050A6A /* ILDBusinessLogicLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA779B11E7CE16600050A6A /* ILDBusinessLogicLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FA77A091E7CE3CC00050A6A /* ILDPersistenceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A081E7CE3CC00050A6A /* ILDPersistenceLayer.framework */; };
 		7FA77A0B1E7CE7EB00050A6A /* ILDNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A0A1E7CE7EB00050A6A /* ILDNetworkLayer.framework */; };
+		7FB1A7161E7F7F7000CE45CA /* ILDTaskDataCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7141E7F7F7000CE45CA /* ILDTaskDataCenter.h */; };
+		7FB1A7171E7F7F7000CE45CA /* ILDTaskDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1A7151E7F7F7000CE45CA /* ILDTaskDataCenter.m */; };
+		7FB1A71A1E7F7FED00CE45CA /* ILDTaskModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7181E7F7FED00CE45CA /* ILDTaskModel.h */; };
+		7FB1A71B1E7F7FED00CE45CA /* ILDTaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1A7191E7F7FED00CE45CA /* ILDTaskModel.m */; };
+		7FB1A71E1E7F84E300CE45CA /* ILDDiligenceDataCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A71C1E7F84E300CE45CA /* ILDDiligenceDataCenter.h */; };
+		7FB1A71F1E7F84E300CE45CA /* ILDDiligenceDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1A71D1E7F84E300CE45CA /* ILDDiligenceDataCenter.m */; };
+		7FB1A7221E7FA19E00CE45CA /* ILDDiligenceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7201E7FA19E00CE45CA /* ILDDiligenceModel.h */; };
+		7FB1A7231E7FA19E00CE45CA /* ILDDiligenceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1A7211E7FA19E00CE45CA /* ILDDiligenceModel.m */; };
+		7FB1A7261E7FB66000CE45CA /* ILDDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7241E7FB66000CE45CA /* ILDDateHelper.h */; };
+		7FB1A7271E7FB66000CE45CA /* ILDDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1A7251E7FB66000CE45CA /* ILDDateHelper.m */; };
+		7FB1A72A1E7FB90D00CE45CA /* ILDStatisticsTodayModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7281E7FB90D00CE45CA /* ILDStatisticsTodayModel.h */; };
+		7FB1A72B1E7FB90D00CE45CA /* ILDStatisticsTodayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1A7291E7FB90D00CE45CA /* ILDStatisticsTodayModel.m */; };
+		7FDA230F1E8221DA001B1B69 /* ILDPieChartDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA230D1E8221DA001B1B69 /* ILDPieChartDataModel.h */; };
+		7FDA23101E8221DA001B1B69 /* ILDPieChartDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA230E1E8221DA001B1B69 /* ILDPieChartDataModel.m */; };
+		7FDA23131E8240D1001B1B69 /* ILDStatisticsHistoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA23111E8240D1001B1B69 /* ILDStatisticsHistoryModel.h */; };
+		7FDA23141E8240D1001B1B69 /* ILDStatisticsHistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA23121E8240D1001B1B69 /* ILDStatisticsHistoryModel.m */; };
+		7FDA23181E825571001B1B69 /* ILDStoryDataCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA23161E825571001B1B69 /* ILDStoryDataCenter.h */; };
+		7FDA23191E825571001B1B69 /* ILDStoryDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA23171E825571001B1B69 /* ILDStoryDataCenter.m */; };
+		7FDA231C1E825A65001B1B69 /* ILDStoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA231A1E825A65001B1B69 /* ILDStoryModel.h */; };
+		7FDA231D1E825A65001B1B69 /* ILDStoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA231B1E825A65001B1B69 /* ILDStoryModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +53,26 @@
 		7FA779BE1E7CE16600050A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FA77A081E7CE3CC00050A6A /* ILDPersistenceLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ILDPersistenceLayer.framework; path = "../ILDPersistenceLayer/build/Debug-iphoneos/ILDPersistenceLayer.framework"; sourceTree = "<group>"; };
 		7FA77A0A1E7CE7EB00050A6A /* ILDNetworkLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ILDNetworkLayer.framework; path = "../ILDNetworkLayer/build/Debug-iphoneos/ILDNetworkLayer.framework"; sourceTree = "<group>"; };
+		7FB1A7141E7F7F7000CE45CA /* ILDTaskDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDTaskDataCenter.h; sourceTree = "<group>"; };
+		7FB1A7151E7F7F7000CE45CA /* ILDTaskDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDTaskDataCenter.m; sourceTree = "<group>"; };
+		7FB1A7181E7F7FED00CE45CA /* ILDTaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDTaskModel.h; sourceTree = "<group>"; };
+		7FB1A7191E7F7FED00CE45CA /* ILDTaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDTaskModel.m; sourceTree = "<group>"; };
+		7FB1A71C1E7F84E300CE45CA /* ILDDiligenceDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDDiligenceDataCenter.h; sourceTree = "<group>"; };
+		7FB1A71D1E7F84E300CE45CA /* ILDDiligenceDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDDiligenceDataCenter.m; sourceTree = "<group>"; };
+		7FB1A7201E7FA19E00CE45CA /* ILDDiligenceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDDiligenceModel.h; sourceTree = "<group>"; };
+		7FB1A7211E7FA19E00CE45CA /* ILDDiligenceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDDiligenceModel.m; sourceTree = "<group>"; };
+		7FB1A7241E7FB66000CE45CA /* ILDDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDDateHelper.h; sourceTree = "<group>"; };
+		7FB1A7251E7FB66000CE45CA /* ILDDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDDateHelper.m; sourceTree = "<group>"; };
+		7FB1A7281E7FB90D00CE45CA /* ILDStatisticsTodayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsTodayModel.h; sourceTree = "<group>"; };
+		7FB1A7291E7FB90D00CE45CA /* ILDStatisticsTodayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsTodayModel.m; sourceTree = "<group>"; };
+		7FDA230D1E8221DA001B1B69 /* ILDPieChartDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDPieChartDataModel.h; sourceTree = "<group>"; };
+		7FDA230E1E8221DA001B1B69 /* ILDPieChartDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDPieChartDataModel.m; sourceTree = "<group>"; };
+		7FDA23111E8240D1001B1B69 /* ILDStatisticsHistoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsHistoryModel.h; sourceTree = "<group>"; };
+		7FDA23121E8240D1001B1B69 /* ILDStatisticsHistoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsHistoryModel.m; sourceTree = "<group>"; };
+		7FDA23161E825571001B1B69 /* ILDStoryDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStoryDataCenter.h; sourceTree = "<group>"; };
+		7FDA23171E825571001B1B69 /* ILDStoryDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStoryDataCenter.m; sourceTree = "<group>"; };
+		7FDA231A1E825A65001B1B69 /* ILDStoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStoryModel.h; sourceTree = "<group>"; };
+		7FDA231B1E825A65001B1B69 /* ILDStoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStoryModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +118,17 @@
 		7FA779B01E7CE16600050A6A /* ILDBusinessLogicLayer */ = {
 			isa = PBXGroup;
 			children = (
+				7FDA23151E824977001B1B69 /* Model */,
 				7FA779B11E7CE16600050A6A /* ILDBusinessLogicLayer.h */,
 				7FA779B21E7CE16600050A6A /* Info.plist */,
+				7FB1A7141E7F7F7000CE45CA /* ILDTaskDataCenter.h */,
+				7FB1A7151E7F7F7000CE45CA /* ILDTaskDataCenter.m */,
+				7FB1A71C1E7F84E300CE45CA /* ILDDiligenceDataCenter.h */,
+				7FB1A71D1E7F84E300CE45CA /* ILDDiligenceDataCenter.m */,
+				7FDA23161E825571001B1B69 /* ILDStoryDataCenter.h */,
+				7FDA23171E825571001B1B69 /* ILDStoryDataCenter.m */,
+				7FB1A7241E7FB66000CE45CA /* ILDDateHelper.h */,
+				7FB1A7251E7FB66000CE45CA /* ILDDateHelper.m */,
 			);
 			path = ILDBusinessLogicLayer;
 			sourceTree = "<group>";
@@ -102,6 +151,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7FDA23151E824977001B1B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FB1A7181E7F7FED00CE45CA /* ILDTaskModel.h */,
+				7FB1A7191E7F7FED00CE45CA /* ILDTaskModel.m */,
+				7FB1A7201E7FA19E00CE45CA /* ILDDiligenceModel.h */,
+				7FB1A7211E7FA19E00CE45CA /* ILDDiligenceModel.m */,
+				7FDA230D1E8221DA001B1B69 /* ILDPieChartDataModel.h */,
+				7FDA230E1E8221DA001B1B69 /* ILDPieChartDataModel.m */,
+				7FB1A7281E7FB90D00CE45CA /* ILDStatisticsTodayModel.h */,
+				7FB1A7291E7FB90D00CE45CA /* ILDStatisticsTodayModel.m */,
+				7FDA23111E8240D1001B1B69 /* ILDStatisticsHistoryModel.h */,
+				7FDA23121E8240D1001B1B69 /* ILDStatisticsHistoryModel.m */,
+				7FDA231A1E825A65001B1B69 /* ILDStoryModel.h */,
+				7FDA231B1E825A65001B1B69 /* ILDStoryModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,6 +177,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FB1A7221E7FA19E00CE45CA /* ILDDiligenceModel.h in Headers */,
+				7FDA230F1E8221DA001B1B69 /* ILDPieChartDataModel.h in Headers */,
+				7FB1A71A1E7F7FED00CE45CA /* ILDTaskModel.h in Headers */,
+				7FB1A72A1E7FB90D00CE45CA /* ILDStatisticsTodayModel.h in Headers */,
+				7FB1A7161E7F7F7000CE45CA /* ILDTaskDataCenter.h in Headers */,
+				7FDA23181E825571001B1B69 /* ILDStoryDataCenter.h in Headers */,
+				7FB1A71E1E7F84E300CE45CA /* ILDDiligenceDataCenter.h in Headers */,
+				7FDA231C1E825A65001B1B69 /* ILDStoryModel.h in Headers */,
+				7FB1A7261E7FB66000CE45CA /* ILDDateHelper.h in Headers */,
+				7FDA23131E8240D1001B1B69 /* ILDStatisticsHistoryModel.h in Headers */,
 				7FA779BF1E7CE16600050A6A /* ILDBusinessLogicLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FB1A72B1E7FB90D00CE45CA /* ILDStatisticsTodayModel.m in Sources */,
+				7FDA23101E8221DA001B1B69 /* ILDPieChartDataModel.m in Sources */,
+				7FDA23141E8240D1001B1B69 /* ILDStatisticsHistoryModel.m in Sources */,
+				7FB1A7231E7FA19E00CE45CA /* ILDDiligenceModel.m in Sources */,
+				7FB1A7271E7FB66000CE45CA /* ILDDateHelper.m in Sources */,
+				7FB1A7171E7F7F7000CE45CA /* ILDTaskDataCenter.m in Sources */,
+				7FB1A71F1E7F84E300CE45CA /* ILDDiligenceDataCenter.m in Sources */,
+				7FDA23191E825571001B1B69 /* ILDStoryDataCenter.m in Sources */,
+				7FB1A71B1E7F7FED00CE45CA /* ILDTaskModel.m in Sources */,
+				7FDA231D1E825A65001B1B69 /* ILDStoryModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

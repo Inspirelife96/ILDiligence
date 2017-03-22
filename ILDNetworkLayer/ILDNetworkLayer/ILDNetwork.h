@@ -10,14 +10,14 @@
 
 @protocol ILDNetworkDelegate <NSObject>
 
-- (void)fetchStoryDataSuccess:(NSDictionary *)storyDataDictionary;
+- (void)fetchStoryDataSuccess:(NSDictionary  * _Nonnull)storyDataDictionary;
 - (void)fetchStoryDataFail:(NSError * _Nonnull)error;
 
 @end
 
 @interface ILDNetwork : NSObject
 
-@property (nonatomic,weak) id<ILDNetworkDelegate> delegate;
+@property (nonatomic,weak) _Nullable id<ILDNetworkDelegate> delegate;
 
 - (void)downloadStoryData;
 

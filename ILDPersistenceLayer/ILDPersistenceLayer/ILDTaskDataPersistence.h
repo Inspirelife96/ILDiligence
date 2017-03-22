@@ -11,6 +11,6 @@
 @interface ILDTaskDataPersistence : NSObject
 
 + (NSDictionary *)readTaskData;
-+ (void)saveTaskData:(NSDictionary *)taskDataNSDictionary;
++ (void)saveTaskData:(NSDictionary *)taskDataDictionary;
 
 @end

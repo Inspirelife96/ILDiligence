@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char ILDNetworkLayerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ILDNetworkLayer/PublicHeader.h>
 
+#import <ILDNetworkLayer/ILDNetwork.h>
+#import <ILDNetworkLayer/ILDNetworkConstants.h>
 

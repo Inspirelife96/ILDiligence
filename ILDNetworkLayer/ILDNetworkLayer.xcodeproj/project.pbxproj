@@ -10,9 +10,9 @@
 		7FA779941E7CE11000050A6A /* ILDNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA7798A1E7CE11000050A6A /* ILDNetworkLayer.framework */; };
 		7FA779991E7CE11000050A6A /* ILDNetworkLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA779981E7CE11000050A6A /* ILDNetworkLayerTests.m */; };
 		7FA7799B1E7CE11000050A6A /* ILDNetworkLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA7798D1E7CE11000050A6A /* ILDNetworkLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FA77A431E7E6FA800050A6A /* ILDNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA77A411E7E6FA800050A6A /* ILDNetwork.h */; };
+		7FA77A431E7E6FA800050A6A /* ILDNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA77A411E7E6FA800050A6A /* ILDNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FA77A441E7E6FA800050A6A /* ILDNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA77A421E7E6FA800050A6A /* ILDNetwork.m */; };
-		7FA77A481E7E7A9500050A6A /* ILDNetworkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA77A461E7E7A9500050A6A /* ILDNetworkConstants.h */; };
+		7FA77A481E7E7A9500050A6A /* ILDNetworkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA77A461E7E7A9500050A6A /* ILDNetworkConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FA77A491E7E7A9500050A6A /* ILDNetworkConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA77A471E7E7A9500050A6A /* ILDNetworkConstants.m */; };
 		C01C23F451E4530F0C7634EC /* Pods_sharedPods_ILDNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD26BFBD1B467755B17B790 /* Pods_sharedPods_ILDNetworkLayer.framework */; };
 /* End PBXBuildFile section */

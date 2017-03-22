@@ -23,11 +23,26 @@ NSString *const kTaskDataAlertTime          = @"alertTime";
 
 #pragma mark - diligence data column keys
 
-NSString *const kDiligenceDataTaskId        = @"taskId";
-NSString *const kDiligenceDataStartDate     = @"startDate";
-NSString *const kDiligenceDataEndDate       = @"endDate";
-NSString *const kDiligenceDataBreakTimes    = @"breakTimes";
-NSString *const kDiligenceDataDiligenceTime = @"diligenceTime";
+NSString *const kDiligenceConfiguration = @"configuraion";
+NSString *const kDiligenceTable = @"table";
+NSString *const kDiligenceTaskIndex = @"taskIndex";
+NSString *const kDiligenceHourIndex = @"hourIndex";
+NSString *const kDiligenceDayIndex = @"dayIndex";
+NSString *const kDiligenceWeekdayIndex = @"weekIndex";
+
+#pragma mark - diligence configuration column keys
+
+NSString *const kDiligenceConfigurationMaxKey = @"maxKey";
+NSString *const kDiligenceConfigurationVersion = @"version";
+
+#pragma mark - diligence table column keys
+
+NSString *const kDiligenceTableTaskId = @"taskId";
+NSString *const kDiligenceTableStartDate = @"startDate";
+NSString *const kDiligenceTableEndDate = @"endDate";
+NSString *const kDiligenceTableBreakTimes = @"breakTimes";
+NSString *const kDiligenceTableDiligenceMinutes = @"diligenceMinutes";
+
 
 #pragma mark - story data column keys
 

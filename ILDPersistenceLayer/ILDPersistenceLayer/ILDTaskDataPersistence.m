@@ -25,9 +25,9 @@ NSString *const kTaskDataPersistanceFile = @"taskData.plist";
     return taskDataDictionary;
 }
 
-+ (void)saveTaskData:(NSDictionary *)taskDataNSDictionary {
++ (void)saveTaskData:(NSDictionary *)taskDataDictionary {
     NSString *taskDataFilePath = [ILDPersistenceFilePathHelper persistenceFilePath:kTaskDataPersistanceFile];
-    [taskDataNSDictionary writeToFile:taskDataFilePath atomically:YES];
+    [taskDataDictionary writeToFile:taskDataFilePath atomically:YES];
 }
 
 @end

@@ -8,6 +8,7 @@
 
 #import "ILDDiligenceDataPersistence.h"
 #import "ILDPersistenceFilePathHelper.h"
+#import "ILDPersistanceConstants.h"
 
 NSString *const kDiligenceDataPersistanceFile = @"diligenceData.plist";
 
@@ -17,7 +18,14 @@ NSString *const kDiligenceDataPersistanceFile = @"diligenceData.plist";
     NSString *diligenceDataFilePath = [ILDPersistenceFilePathHelper persistenceFilePath:kDiligenceDataPersistanceFile];
     NSDictionary *diligenceDataDictionary = [NSDictionary dictionaryWithContentsOfFile:diligenceDataFilePath];
     if (!diligenceDataDictionary) {
-        diligenceDataDictionary = [[NSMutableDictionary alloc] init];
+        diligenceDataDictionary = @{
+                                    kDiligenceConfiguration:@{kDiligenceConfigurationMaxKey:@0, kDiligenceConfigurationVersion:@"1.0"},
+                                    kDiligenceTable:@{},
+                                    kDiligenceTaskIndex:@{},
+                                    kDiligenceHourIndex:@{},
+                                    kDiligenceDayIndex:@{},
+                                    kDiligenceWeekdayIndex:@{}
+                                    };
         [ILDDiligenceDataPersistence saveDiligenceData:diligenceDataDictionary];
     }
     
