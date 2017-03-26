@@ -21,6 +21,28 @@
 		7FA77A221E7CEACE00050A6A /* ILDNetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A201E7CEACE00050A6A /* ILDNetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7FA77A241E7CEACE00050A6A /* ILDPersistenceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A231E7CEACE00050A6A /* ILDPersistenceLayer.framework */; };
 		7FA77A251E7CEACE00050A6A /* ILDPersistenceLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A231E7CEACE00050A6A /* ILDPersistenceLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7FDF57AA1E86092A00BE4D63 /* ILDDiligenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57A91E86092A00BE4D63 /* ILDDiligenceViewController.m */; };
+		7FDF57AD1E860C5600BE4D63 /* ILDMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57AC1E860C5600BE4D63 /* ILDMacros.m */; };
+		7FDF57B11E861DCF00BE4D63 /* ILDDiligenceClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57B01E861DCF00BE4D63 /* ILDDiligenceClockViewController.m */; };
+		7FDF57B41E861FE500BE4D63 /* ILDDiligenceClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57B31E861FE500BE4D63 /* ILDDiligenceClockView.m */; };
+		7FDF57BA1E86268900BE4D63 /* ILDTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57B91E86268900BE4D63 /* ILDTaskListViewController.m */; };
+		7FDF57BD1E8626A800BE4D63 /* ILDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57BC1E8626A800BE4D63 /* ILDSettingViewController.m */; };
+		7FDF57C01E8626C200BE4D63 /* ILDStatisticsTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57BF1E8626C200BE4D63 /* ILDStatisticsTodayViewController.m */; };
+		7FDF57C41E8626FA00BE4D63 /* ILDStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57C31E8626FA00BE4D63 /* ILDStoryViewController.m */; };
+		7FDF57C71E8627DC00BE4D63 /* ILDScreenshotImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57C61E8627DC00BE4D63 /* ILDScreenshotImageManager.m */; };
+		7FDF57CA1E8627FF00BE4D63 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57C91E8627FF00BE4D63 /* UIImageEffects.m */; };
+		7FDF57CD1E862DC200BE4D63 /* MusicHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57CC1E862DC200BE4D63 /* MusicHelper.m */; };
+		7FDF57D71E8678EB00BE4D63 /* ILDRestSuggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57D61E8678EB00BE4D63 /* ILDRestSuggestion.m */; };
+		7FDF57E01E867DD100BE4D63 /* ColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57DF1E867DD100BE4D63 /* ColorHelper.m */; };
+		7FDF57E71E8766AF00BE4D63 /* taskData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57E61E8766AF00BE4D63 /* taskData.plist */; };
+		7FDF57E91E8767B600BE4D63 /* 叶根友蚕燕隶书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57E81E8767B600BE4D63 /* 叶根友蚕燕隶书.ttf */; };
+		7FDF57F11E8767BC00BE4D63 /* 但愿相别不相忘.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57EA1E8767BC00BE4D63 /* 但愿相别不相忘.m4a */; };
+		7FDF57F21E8767BC00BE4D63 /* 送别.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57EB1E8767BC00BE4D63 /* 送别.m4a */; };
+		7FDF57F31E8767BC00BE4D63 /* 月色思念.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57EC1E8767BC00BE4D63 /* 月色思念.m4a */; };
+		7FDF57F41E8767BC00BE4D63 /* 美丽的神话.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57ED1E8767BC00BE4D63 /* 美丽的神话.m4a */; };
+		7FDF57F51E8767BC00BE4D63 /* 梁祝.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57EE1E8767BC00BE4D63 /* 梁祝.m4a */; };
+		7FDF57F61E8767BC00BE4D63 /* 茉莉花.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57EF1E8767BC00BE4D63 /* 茉莉花.m4a */; };
+		7FDF57F71E8767BC00BE4D63 /* 江南雨.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57F01E8767BC00BE4D63 /* 江南雨.m4a */; };
 		97BDE321E86EEF08CDF49FFC /* Pods_sharedPods_ILDiligence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CEFF9102DE4A9A688449E8 /* Pods_sharedPods_ILDiligence.framework */; };
 		AB685580D55EB85184403339 /* Pods_ILDiligence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC173DA99E06C7B12BF4DF0 /* Pods_ILDiligence.framework */; };
 /* End PBXBuildFile section */
@@ -82,6 +104,43 @@
 		7FA77A1D1E7CEACE00050A6A /* ILDBusinessLogicLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ILDBusinessLogicLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA77A201E7CEACE00050A6A /* ILDNetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ILDNetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA77A231E7CEACE00050A6A /* ILDPersistenceLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ILDPersistenceLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDF57A81E86092A00BE4D63 /* ILDDiligenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDDiligenceViewController.h; sourceTree = "<group>"; };
+		7FDF57A91E86092A00BE4D63 /* ILDDiligenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDDiligenceViewController.m; sourceTree = "<group>"; };
+		7FDF57AB1E860C5600BE4D63 /* ILDMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDMacros.h; sourceTree = "<group>"; };
+		7FDF57AC1E860C5600BE4D63 /* ILDMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDMacros.m; sourceTree = "<group>"; };
+		7FDF57AE1E860C8D00BE4D63 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7FDF57AF1E861DCF00BE4D63 /* ILDDiligenceClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDDiligenceClockViewController.h; sourceTree = "<group>"; };
+		7FDF57B01E861DCF00BE4D63 /* ILDDiligenceClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDDiligenceClockViewController.m; sourceTree = "<group>"; };
+		7FDF57B21E861FE500BE4D63 /* ILDDiligenceClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDDiligenceClockView.h; sourceTree = "<group>"; };
+		7FDF57B31E861FE500BE4D63 /* ILDDiligenceClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDDiligenceClockView.m; sourceTree = "<group>"; };
+		7FDF57B81E86268900BE4D63 /* ILDTaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDTaskListViewController.h; sourceTree = "<group>"; };
+		7FDF57B91E86268900BE4D63 /* ILDTaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDTaskListViewController.m; sourceTree = "<group>"; };
+		7FDF57BB1E8626A800BE4D63 /* ILDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDSettingViewController.h; sourceTree = "<group>"; };
+		7FDF57BC1E8626A800BE4D63 /* ILDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDSettingViewController.m; sourceTree = "<group>"; };
+		7FDF57BE1E8626C200BE4D63 /* ILDStatisticsTodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsTodayViewController.h; sourceTree = "<group>"; };
+		7FDF57BF1E8626C200BE4D63 /* ILDStatisticsTodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsTodayViewController.m; sourceTree = "<group>"; };
+		7FDF57C21E8626FA00BE4D63 /* ILDStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStoryViewController.h; sourceTree = "<group>"; };
+		7FDF57C31E8626FA00BE4D63 /* ILDStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStoryViewController.m; sourceTree = "<group>"; };
+		7FDF57C51E8627DC00BE4D63 /* ILDScreenshotImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDScreenshotImageManager.h; sourceTree = "<group>"; };
+		7FDF57C61E8627DC00BE4D63 /* ILDScreenshotImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDScreenshotImageManager.m; sourceTree = "<group>"; };
+		7FDF57C81E8627FF00BE4D63 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		7FDF57C91E8627FF00BE4D63 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		7FDF57CB1E862DC200BE4D63 /* MusicHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicHelper.h; sourceTree = "<group>"; };
+		7FDF57CC1E862DC200BE4D63 /* MusicHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicHelper.m; sourceTree = "<group>"; };
+		7FDF57D11E862EB800BE4D63 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ILDiligence-feexcqxyntcmcadzstzylsfygauz/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		7FDF57D51E8678EB00BE4D63 /* ILDRestSuggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILDRestSuggestion.h; path = ../../../INLEngery/energy/energy/ILDRestSuggestion.h; sourceTree = "<group>"; };
+		7FDF57D61E8678EB00BE4D63 /* ILDRestSuggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILDRestSuggestion.m; path = ../../../INLEngery/energy/energy/ILDRestSuggestion.m; sourceTree = "<group>"; };
+		7FDF57DE1E867DD100BE4D63 /* ColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorHelper.h; sourceTree = "<group>"; };
+		7FDF57DF1E867DD100BE4D63 /* ColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorHelper.m; sourceTree = "<group>"; };
+		7FDF57E61E8766AF00BE4D63 /* taskData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = taskData.plist; sourceTree = "<group>"; };
+		7FDF57E81E8767B600BE4D63 /* 叶根友蚕燕隶书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "叶根友蚕燕隶书.ttf"; sourceTree = "<group>"; };
+		7FDF57EA1E8767BC00BE4D63 /* 但愿相别不相忘.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "但愿相别不相忘.m4a"; sourceTree = "<group>"; };
+		7FDF57EB1E8767BC00BE4D63 /* 送别.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "送别.m4a"; sourceTree = "<group>"; };
+		7FDF57EC1E8767BC00BE4D63 /* 月色思念.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "月色思念.m4a"; sourceTree = "<group>"; };
+		7FDF57ED1E8767BC00BE4D63 /* 美丽的神话.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "美丽的神话.m4a"; sourceTree = "<group>"; };
+		7FDF57EE1E8767BC00BE4D63 /* 梁祝.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "梁祝.m4a"; sourceTree = "<group>"; };
+		7FDF57EF1E8767BC00BE4D63 /* 茉莉花.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "茉莉花.m4a"; sourceTree = "<group>"; };
+		7FDF57F01E8767BC00BE4D63 /* 江南雨.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "江南雨.m4a"; sourceTree = "<group>"; };
 		E1AA241BCFE4559E59A17792 /* Pods-sharedPods-ILDiligence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPods-ILDiligence.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-sharedPods-ILDiligence/Pods-sharedPods-ILDiligence.debug.xcconfig"; sourceTree = "<group>"; };
 		EA183FC9F8E823A0A8F9A46E /* Pods-ILDiligence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ILDiligence.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ILDiligence/Pods-ILDiligence.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +186,90 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7F6E01DC1E850E22005230BB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7F6E01DD1E850E27005230BB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		7F6E01DE1E850E2E005230BB /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57AB1E860C5600BE4D63 /* ILDMacros.h */,
+				7FDF57AC1E860C5600BE4D63 /* ILDMacros.m */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		7F6E01DF1E850E35005230BB /* External */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57F91E8767C800BE4D63 /* Music */,
+				7FDF57F81E8767C000BE4D63 /* Font */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		7F6E01E01E850E40005230BB /* MVCs */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57C11E8626E800BE4D63 /* Story */,
+				7FDF57B71E86266D00BE4D63 /* Task */,
+				7FDF57B61E86266800BE4D63 /* Setting */,
+				7FDF57B51E86265D00BE4D63 /* Statistics */,
+				7F6E01E41E850E89005230BB /* Diligence */,
+			);
+			name = MVCs;
+			sourceTree = "<group>";
+		};
+		7F6E01E11E850E50005230BB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7FA779E01E7CE1DF00050A6A /* Assets.xcassets */,
+				7FDF57E31E8765AE00BE4D63 /* Plist */,
+				7FDF57A71E86015600BE4D63 /* Storyboard */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		7F6E01E31E850E63005230BB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57DE1E867DD100BE4D63 /* ColorHelper.h */,
+				7FDF57DF1E867DD100BE4D63 /* ColorHelper.m */,
+				7FDF57D51E8678EB00BE4D63 /* ILDRestSuggestion.h */,
+				7FDF57D61E8678EB00BE4D63 /* ILDRestSuggestion.m */,
+				7FDF57C51E8627DC00BE4D63 /* ILDScreenshotImageManager.h */,
+				7FDF57C61E8627DC00BE4D63 /* ILDScreenshotImageManager.m */,
+				7FDF57C81E8627FF00BE4D63 /* UIImageEffects.h */,
+				7FDF57C91E8627FF00BE4D63 /* UIImageEffects.m */,
+				7FDF57CB1E862DC200BE4D63 /* MusicHelper.h */,
+				7FDF57CC1E862DC200BE4D63 /* MusicHelper.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		7F6E01E41E850E89005230BB /* Diligence */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57A81E86092A00BE4D63 /* ILDDiligenceViewController.h */,
+				7FDF57A91E86092A00BE4D63 /* ILDDiligenceViewController.m */,
+				7FDF57AF1E861DCF00BE4D63 /* ILDDiligenceClockViewController.h */,
+				7FDF57B01E861DCF00BE4D63 /* ILDDiligenceClockViewController.m */,
+				7FDF57B21E861FE500BE4D63 /* ILDDiligenceClockView.h */,
+				7FDF57B31E861FE500BE4D63 /* ILDDiligenceClockView.m */,
+			);
+			name = Diligence;
+			sourceTree = "<group>";
+		};
 		7FA779C81E7CE1DF00050A6A = {
 			isa = PBXGroup;
 			children = (
@@ -152,15 +295,16 @@
 		7FA779D31E7CE1DF00050A6A /* ILDiligence */ = {
 			isa = PBXGroup;
 			children = (
-				7FA779D71E7CE1DF00050A6A /* AppDelegate.h */,
-				7FA779D81E7CE1DF00050A6A /* AppDelegate.m */,
+				7F6E01DC1E850E22005230BB /* Base */,
+				7F6E01DD1E850E27005230BB /* Category */,
+				7F6E01DE1E850E2E005230BB /* Constant */,
+				7F6E01DF1E850E35005230BB /* External */,
+				7F6E01E01E850E40005230BB /* MVCs */,
+				7F6E01E11E850E50005230BB /* Resource */,
+				7FA779D41E7CE1DF00050A6A /* Supporting Files */,
+				7F6E01E31E850E63005230BB /* Utilities */,
 				7FA779DA1E7CE1DF00050A6A /* ViewController.h */,
 				7FA779DB1E7CE1DF00050A6A /* ViewController.m */,
-				7FA779DD1E7CE1DF00050A6A /* Main.storyboard */,
-				7FA779E01E7CE1DF00050A6A /* Assets.xcassets */,
-				7FA779E21E7CE1DF00050A6A /* LaunchScreen.storyboard */,
-				7FA779E51E7CE1DF00050A6A /* Info.plist */,
-				7FA779D41E7CE1DF00050A6A /* Supporting Files */,
 			);
 			path = ILDiligence;
 			sourceTree = "<group>";
@@ -168,7 +312,11 @@
 		7FA779D41E7CE1DF00050A6A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7FA779D71E7CE1DF00050A6A /* AppDelegate.h */,
+				7FA779D81E7CE1DF00050A6A /* AppDelegate.m */,
 				7FA779D51E7CE1DF00050A6A /* main.m */,
+				7FA779E51E7CE1DF00050A6A /* Info.plist */,
+				7FDF57AE1E860C8D00BE4D63 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -191,9 +339,85 @@
 			path = ILDiligenceUITests;
 			sourceTree = "<group>";
 		};
+		7FDF57A71E86015600BE4D63 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7FA779E21E7CE1DF00050A6A /* LaunchScreen.storyboard */,
+				7FA779DD1E7CE1DF00050A6A /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		7FDF57B51E86265D00BE4D63 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57BE1E8626C200BE4D63 /* ILDStatisticsTodayViewController.h */,
+				7FDF57BF1E8626C200BE4D63 /* ILDStatisticsTodayViewController.m */,
+			);
+			name = Statistics;
+			sourceTree = "<group>";
+		};
+		7FDF57B61E86266800BE4D63 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57BB1E8626A800BE4D63 /* ILDSettingViewController.h */,
+				7FDF57BC1E8626A800BE4D63 /* ILDSettingViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		7FDF57B71E86266D00BE4D63 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57B81E86268900BE4D63 /* ILDTaskListViewController.h */,
+				7FDF57B91E86268900BE4D63 /* ILDTaskListViewController.m */,
+			);
+			name = Task;
+			sourceTree = "<group>";
+		};
+		7FDF57C11E8626E800BE4D63 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57C21E8626FA00BE4D63 /* ILDStoryViewController.h */,
+				7FDF57C31E8626FA00BE4D63 /* ILDStoryViewController.m */,
+			);
+			name = Story;
+			sourceTree = "<group>";
+		};
+		7FDF57E31E8765AE00BE4D63 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57E61E8766AF00BE4D63 /* taskData.plist */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+		7FDF57F81E8767C000BE4D63 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57E81E8767B600BE4D63 /* 叶根友蚕燕隶书.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		7FDF57F91E8767C800BE4D63 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57EA1E8767BC00BE4D63 /* 但愿相别不相忘.m4a */,
+				7FDF57EB1E8767BC00BE4D63 /* 送别.m4a */,
+				7FDF57EC1E8767BC00BE4D63 /* 月色思念.m4a */,
+				7FDF57ED1E8767BC00BE4D63 /* 美丽的神话.m4a */,
+				7FDF57EE1E8767BC00BE4D63 /* 梁祝.m4a */,
+				7FDF57EF1E8767BC00BE4D63 /* 茉莉花.m4a */,
+				7FDF57F01E8767BC00BE4D63 /* 江南雨.m4a */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
 		8CF1200692564EA520E09867 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7FDF57D11E862EB800BE4D63 /* AFNetworking.framework */,
 				7FA77A231E7CEACE00050A6A /* ILDPersistenceLayer.framework */,
 				7FA77A201E7CEACE00050A6A /* ILDNetworkLayer.framework */,
 				7FA77A1D1E7CEACE00050A6A /* ILDBusinessLogicLayer.framework */,
@@ -275,6 +499,7 @@
 					7FA779D01E7CE1DF00050A6A = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 86MNLPUJYP;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					7FA779E91E7CE1DF00050A6A = {
@@ -316,9 +541,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FDF57F51E8767BC00BE4D63 /* 梁祝.m4a in Resources */,
+				7FDF57F11E8767BC00BE4D63 /* 但愿相别不相忘.m4a in Resources */,
+				7FDF57F41E8767BC00BE4D63 /* 美丽的神话.m4a in Resources */,
 				7FA779E41E7CE1DF00050A6A /* LaunchScreen.storyboard in Resources */,
+				7FDF57E71E8766AF00BE4D63 /* taskData.plist in Resources */,
+				7FDF57F61E8767BC00BE4D63 /* 茉莉花.m4a in Resources */,
+				7FDF57F21E8767BC00BE4D63 /* 送别.m4a in Resources */,
+				7FDF57F31E8767BC00BE4D63 /* 月色思念.m4a in Resources */,
 				7FA779E11E7CE1DF00050A6A /* Assets.xcassets in Resources */,
+				7FDF57F71E8767BC00BE4D63 /* 江南雨.m4a in Resources */,
 				7FA779DF1E7CE1DF00050A6A /* Main.storyboard in Resources */,
+				7FDF57E91E8767B600BE4D63 /* 叶根友蚕燕隶书.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,9 +625,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FDF57B11E861DCF00BE4D63 /* ILDDiligenceClockViewController.m in Sources */,
 				7FA779DC1E7CE1DF00050A6A /* ViewController.m in Sources */,
+				7FDF57B41E861FE500BE4D63 /* ILDDiligenceClockView.m in Sources */,
+				7FDF57BD1E8626A800BE4D63 /* ILDSettingViewController.m in Sources */,
+				7FDF57D71E8678EB00BE4D63 /* ILDRestSuggestion.m in Sources */,
+				7FDF57AD1E860C5600BE4D63 /* ILDMacros.m in Sources */,
+				7FDF57CA1E8627FF00BE4D63 /* UIImageEffects.m in Sources */,
+				7FDF57E01E867DD100BE4D63 /* ColorHelper.m in Sources */,
 				7FA779D91E7CE1DF00050A6A /* AppDelegate.m in Sources */,
+				7FDF57C41E8626FA00BE4D63 /* ILDStoryViewController.m in Sources */,
+				7FDF57BA1E86268900BE4D63 /* ILDTaskListViewController.m in Sources */,
+				7FDF57CD1E862DC200BE4D63 /* MusicHelper.m in Sources */,
 				7FA779D61E7CE1DF00050A6A /* main.m in Sources */,
+				7FDF57AA1E86092A00BE4D63 /* ILDDiligenceViewController.m in Sources */,
+				7FDF57C01E8626C200BE4D63 /* ILDStatisticsTodayViewController.m in Sources */,
+				7FDF57C71E8627DC00BE4D63 /* ILDScreenshotImageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +725,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = ILDiligence/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -524,6 +772,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = ILDiligence/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -548,6 +797,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.inspirelife.ILDiligence;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -561,6 +811,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.inspirelife.ILDiligence;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

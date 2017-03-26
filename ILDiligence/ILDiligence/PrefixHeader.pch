@@ -1,0 +1,56 @@
+//
+//  PrefixHeader.pch
+//  Diligence
+//
+//  Created by XueFeng Chen on 2017/2/8.
+//  Copyright © 2017年 Chen XueFeng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+#import <ILDBusinessLogicLayer/ILDBusinessLogicLayer.h>
+
+#import <ChameleonFramework/Chameleon.h>
+#import <Masonry/Masonry.h>
+
+#import "ILDMacros.h"
+#import "ColorHelper.h"
+
+#import "MusicHelper.h"
+#import <Charts/Charts-Swift.h>
+#import <PulsingHalo/PulsingHaloLayer.h>
+#import <AFNetworking/AFNetworking.h>
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+#import <WXApi.h>
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+
+/*
+#import <Masonry/Masonry.h>
+
+
+
+#import "ILURLConstants.h"
+#import "ILKeysConstants.h"
+#import "TimerHelper.h"
+#import "ColorHelper.h"
+#import "MusicHelper.h"
+#import "WeekDaysHelper.h"
+
+
+#import "ILDDiligenceDataCenter.h"
+#import "ILDTaskDataCenter.h"
+#import "ILDTaskConfiguraiton.h"
+ */
+
+#endif
+
+
+#endif /* PrefixHeader_pch */

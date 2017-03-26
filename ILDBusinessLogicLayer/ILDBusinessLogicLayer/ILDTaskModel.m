@@ -28,18 +28,18 @@
     return self;
 }
 
-- (instancetype)initWithTaskDict:(NSDictionary *)taskDict {
+- (instancetype)initWithTaskDictionary:(NSDictionary *)taskNSDictionary {
     if (self = [super init]) {
-        self.name = taskDict[kTaskDataName];
-        self.color = taskDict[kTaskDataColor];
-        self.musicName = taskDict[kTaskDataMusicName];
-        self.diligenceTime = taskDict[kTaskDataDiligenceTime];
-        self.restTime = taskDict[kTaskDataRestTime];
-        self.isFocusModeEnabled = [taskDict[kTaskDataIsFocusModeEnabled] boolValue];
-        self.isRestModeEnabled = [taskDict[kTaskDataIsRestModeEnabled] boolValue];
-        self.isMusicEnabled = [taskDict[kTaskDataIsMusicModeEnabled] boolValue];
-        self.isAlertEnabled = [taskDict[kTaskDataIsAlertModeEnabled] boolValue];
-        self.alertTime = taskDict[kTaskDataAlertTime];
+        self.name = taskNSDictionary[kTaskDataName];
+        self.color = taskNSDictionary[kTaskDataColor];
+        self.musicName = taskNSDictionary[kTaskDataMusicName];
+        self.diligenceTime = taskNSDictionary[kTaskDataDiligenceTime];
+        self.restTime = taskNSDictionary[kTaskDataRestTime];
+        self.isFocusModeEnabled = [taskNSDictionary[kTaskDataIsFocusModeEnabled] boolValue];
+        self.isRestModeEnabled = [taskNSDictionary[kTaskDataIsRestModeEnabled] boolValue];
+        self.isMusicEnabled = [taskNSDictionary[kTaskDataIsMusicModeEnabled] boolValue];
+        self.isAlertEnabled = [taskNSDictionary[kTaskDataIsAlertModeEnabled] boolValue];
+        self.alertTime = taskNSDictionary[kTaskDataAlertTime];
     }
     
     return self;

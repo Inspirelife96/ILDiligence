@@ -12,25 +12,25 @@
 		7FA779BF1E7CE16600050A6A /* ILDBusinessLogicLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA779B11E7CE16600050A6A /* ILDBusinessLogicLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FA77A091E7CE3CC00050A6A /* ILDPersistenceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A081E7CE3CC00050A6A /* ILDPersistenceLayer.framework */; };
 		7FA77A0B1E7CE7EB00050A6A /* ILDNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A0A1E7CE7EB00050A6A /* ILDNetworkLayer.framework */; };
-		7FB1A7161E7F7F7000CE45CA /* ILDTaskDataCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7141E7F7F7000CE45CA /* ILDTaskDataCenter.h */; };
+		7FB1A7161E7F7F7000CE45CA /* ILDTaskDataCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7141E7F7F7000CE45CA /* ILDTaskDataCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FB1A7171E7F7F7000CE45CA /* ILDTaskDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1A7151E7F7F7000CE45CA /* ILDTaskDataCenter.m */; };
-		7FB1A71A1E7F7FED00CE45CA /* ILDTaskModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7181E7F7FED00CE45CA /* ILDTaskModel.h */; };
+		7FB1A71A1E7F7FED00CE45CA /* ILDTaskModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7181E7F7FED00CE45CA /* ILDTaskModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FB1A71B1E7F7FED00CE45CA /* ILDTaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1A7191E7F7FED00CE45CA /* ILDTaskModel.m */; };
-		7FB1A71E1E7F84E300CE45CA /* ILDDiligenceDataCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A71C1E7F84E300CE45CA /* ILDDiligenceDataCenter.h */; };
+		7FB1A71E1E7F84E300CE45CA /* ILDDiligenceDataCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A71C1E7F84E300CE45CA /* ILDDiligenceDataCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FB1A71F1E7F84E300CE45CA /* ILDDiligenceDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1A71D1E7F84E300CE45CA /* ILDDiligenceDataCenter.m */; };
-		7FB1A7221E7FA19E00CE45CA /* ILDDiligenceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7201E7FA19E00CE45CA /* ILDDiligenceModel.h */; };
+		7FB1A7221E7FA19E00CE45CA /* ILDDiligenceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7201E7FA19E00CE45CA /* ILDDiligenceModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FB1A7231E7FA19E00CE45CA /* ILDDiligenceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1A7211E7FA19E00CE45CA /* ILDDiligenceModel.m */; };
-		7FB1A7261E7FB66000CE45CA /* ILDDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7241E7FB66000CE45CA /* ILDDateHelper.h */; };
+		7FB1A7261E7FB66000CE45CA /* ILDDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7241E7FB66000CE45CA /* ILDDateHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FB1A7271E7FB66000CE45CA /* ILDDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1A7251E7FB66000CE45CA /* ILDDateHelper.m */; };
-		7FB1A72A1E7FB90D00CE45CA /* ILDStatisticsTodayModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7281E7FB90D00CE45CA /* ILDStatisticsTodayModel.h */; };
+		7FB1A72A1E7FB90D00CE45CA /* ILDStatisticsTodayModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1A7281E7FB90D00CE45CA /* ILDStatisticsTodayModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FB1A72B1E7FB90D00CE45CA /* ILDStatisticsTodayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1A7291E7FB90D00CE45CA /* ILDStatisticsTodayModel.m */; };
-		7FDA230F1E8221DA001B1B69 /* ILDPieChartDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA230D1E8221DA001B1B69 /* ILDPieChartDataModel.h */; };
+		7FDA230F1E8221DA001B1B69 /* ILDPieChartDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA230D1E8221DA001B1B69 /* ILDPieChartDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FDA23101E8221DA001B1B69 /* ILDPieChartDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA230E1E8221DA001B1B69 /* ILDPieChartDataModel.m */; };
-		7FDA23131E8240D1001B1B69 /* ILDStatisticsHistoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA23111E8240D1001B1B69 /* ILDStatisticsHistoryModel.h */; };
+		7FDA23131E8240D1001B1B69 /* ILDStatisticsHistoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA23111E8240D1001B1B69 /* ILDStatisticsHistoryModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FDA23141E8240D1001B1B69 /* ILDStatisticsHistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA23121E8240D1001B1B69 /* ILDStatisticsHistoryModel.m */; };
-		7FDA23181E825571001B1B69 /* ILDStoryDataCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA23161E825571001B1B69 /* ILDStoryDataCenter.h */; };
+		7FDA23181E825571001B1B69 /* ILDStoryDataCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA23161E825571001B1B69 /* ILDStoryDataCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FDA23191E825571001B1B69 /* ILDStoryDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA23171E825571001B1B69 /* ILDStoryDataCenter.m */; };
-		7FDA231C1E825A65001B1B69 /* ILDStoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA231A1E825A65001B1B69 /* ILDStoryModel.h */; };
+		7FDA231C1E825A65001B1B69 /* ILDStoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDA231A1E825A65001B1B69 /* ILDStoryModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FDA231D1E825A65001B1B69 /* ILDStoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA231B1E825A65001B1B69 /* ILDStoryModel.m */; };
 /* End PBXBuildFile section */
 

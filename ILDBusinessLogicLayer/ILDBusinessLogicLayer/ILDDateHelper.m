@@ -23,7 +23,7 @@
 }
 
 
-+ (NSArray *)weekDayList {
++ (NSArray *)weekDaysList {
     return @[
              @"星期日",
              @"星期一",
@@ -89,16 +89,37 @@
     NSString *monthString = [ILDDateHelper monthList][[comp month] - 1];
     return [NSString stringWithFormat:@"%ld %@ %ld 日", (long)[comp year] , monthString, [comp day]];
 }
+
 + (NSString *)stringOfHour:(NSDate *)date {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSDateComponents *components = [calendar components:NSCalendarUnitHour fromDate:date];
     return [[ILDDateHelper hourList] objectAtIndex:[components hour]];
     
 }
+
 + (NSString *)stringOfWeekday:(NSDate *)date {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSDateComponents *components = [calendar components:NSCalendarUnitWeekday fromDate:date];
     return [[ILDDateHelper hourList] objectAtIndex:([components weekday] - 1)];
+}
+
++ (NSString *)stringOfDayWithWeekDay:(NSDate *)date {
+    NSCalendar* calendar = [NSCalendar currentCalendar];
+    unsigned unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth |  NSCalendarUnitDay | NSCalendarUnitWeekday;
+    NSDateComponents* comp = [calendar components:unitFlags fromDate:date];
+    NSString *monthString = [ILDDateHelper monthList][[comp month] - 1];
+    NSString *weekdayString = [ILDDateHelper weekDaysList][[comp weekday] - 1];
+    return [NSString stringWithFormat:@"%@ %ld %@ %ld", monthString, (long)[comp day], weekdayString, [comp year]];
+}
+
++ (NSString *)minutesFormatBySeconds:(CGFloat)seconds {
+    NSInteger second = (NSInteger)ceil(seconds) % 60;
+    NSInteger minute = (NSInteger)ceil(seconds) / 60;
+    return [NSString stringWithFormat:@"%02ld:%02ld", (long)minute, second];
+}
+
++ (NSString *)weekDaysName:(NSInteger)index {
+    return [[ILDDateHelper weekDaysList] objectAtIndex:index - 1];
 }
 
 @end

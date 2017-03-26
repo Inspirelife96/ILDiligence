@@ -11,11 +11,12 @@
 #pragma mark - bing image/story url
 
 NSString *const kBingImageURL = @"http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1";
-NSString *const kBingStoryURL = @"http://www.jianshu.com/p/cab88362ced0";
+NSString *const kBingStoryURL = @"http://cn.bing.com/cnhp/coverstory";
 NSString *const kBingImageFullPathFormat = @"http://www.bing.com%@%@";
 
 #pragma mark - story keys need to be fetch from URL
 
+NSString *const kBingStoryURLDate = @"date";
 NSString *const kBingStoryURLTitle = @"title";
 NSString *const kBingStoryURLAttribute = @"attribute" ;
 NSString *const kBingStoryURLPara1 = @"para1";

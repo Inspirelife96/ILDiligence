@@ -20,6 +20,7 @@
 		7FA77A3B1E7E55C200050A6A /* ILDStoryDataPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA77A391E7E55C200050A6A /* ILDStoryDataPersistence.m */; };
 		7FA77A3F1E7E60FF00050A6A /* ILDPersistanceConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA77A3D1E7E60FF00050A6A /* ILDPersistanceConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FA77A401E7E60FF00050A6A /* ILDPersistanceConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA77A3E1E7E60FF00050A6A /* ILDPersistanceConstants.m */; };
+		7FDF57E51E8765EB00BE4D63 /* taskData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57E41E8765EB00BE4D63 /* taskData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7FA77A391E7E55C200050A6A /* ILDStoryDataPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStoryDataPersistence.m; sourceTree = "<group>"; };
 		7FA77A3D1E7E60FF00050A6A /* ILDPersistanceConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDPersistanceConstants.h; sourceTree = "<group>"; };
 		7FA77A3E1E7E60FF00050A6A /* ILDPersistanceConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDPersistanceConstants.m; sourceTree = "<group>"; };
+		7FDF57E41E8765EB00BE4D63 /* taskData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = taskData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		7FA779681E7CE0ED00050A6A /* ILDPersistenceLayer */ = {
 			isa = PBXGroup;
 			children = (
+				7FDF57E41E8765EB00BE4D63 /* taskData.plist */,
 				7FA77A3C1E7E60D200050A6A /* Constants */,
 				7FA77A371E7E441000050A6A /* Utilities */,
 				7FA77A2B1E7E42B000050A6A /* ILDTaskDataPersistence.h */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FDF57E51E8765EB00BE4D63 /* taskData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

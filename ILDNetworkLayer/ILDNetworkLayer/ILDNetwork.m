@@ -31,10 +31,11 @@
     [self downloadOtherData];
     
     dispatch_group_notify(self.requestGroup, dispatch_get_main_queue(), ^{
-        if (!self.error) {
+        if (self.error) {
             [self.delegate fetchStoryDataFail:self.error];
         } else {
             NSDictionary *storyDataDictionary = @{
+                                                  kBingStoryURLDate:[NSDate date],
                                                   kBingStoryURLTitle:self.storyTitle,
                                                   kBingStoryURLAttribute:self.storyAttribute,
                                                   kBingStoryURLPara1:self.storyPara1,

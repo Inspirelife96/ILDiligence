@@ -17,6 +17,7 @@ extern NSString *const kBingImageFullPathFormat;
 
 #pragma mark - story keys need to be fetch from URL
 
+extern NSString *const kBingStoryURLDate;
 extern NSString *const kBingStoryURLTitle;
 extern NSString *const kBingStoryURLAttribute;
 extern NSString *const kBingStoryURLPara1;

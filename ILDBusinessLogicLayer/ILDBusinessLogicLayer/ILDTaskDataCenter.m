@@ -67,12 +67,12 @@ static ILDTaskDataCenter *sharedInstance = nil;
 
 - (void)addTask:(ILDTaskModel *)taskConfiguration {
     NSString *taskId = [self generateNewKey];
-    self.taskDataDictionary[taskId] = [self convertTaskConfigurationToDictionary:taskConfiguration];
+    self.taskDataDictionary[taskId] = [taskConfiguration convertToDictionary];
     [self saveTask];
 }
 
 - (void)updateTask:(NSString *)taskId taskConfiguration:(ILDTaskModel *)taskConfiguration {
-    self.taskDataDictionary[taskId] = [self convertTaskConfigurationToDictionary:taskConfiguration];
+    self.taskDataDictionary[taskId] = [taskConfiguration convertToDictionary];
     [self saveTask];
 }
 
@@ -90,39 +90,10 @@ static ILDTaskDataCenter *sharedInstance = nil;
     return [NSString stringWithFormat:@"%ld", (long)(maxNumber + 1)];
 }
 
-- (NSDictionary *)convertTaskConfigurationToDictionary:(ILDTaskModel *)taskConfiguration {
-    NSDictionary *taskDictionary = @{
-//                                        kTaskDataName:taskConfiguration.name,
-//                                        @"color":_color,
-//                                        @"musicName":_musicName,
-//                                        @"diligenceTime":_diligenceTime,
-//                                        @"restTime":_restTime,
-//                                        @"isRestMode":[NSNumber numberWithBool:_isRestMode],
-//                                        @"isFocusMode":[NSNumber numberWithBool:_isFocusMode],
-//                                        @"isMusicEnabled":[NSNumber numberWithBool:_isMusicEnabled],
-//                                        @"isAlertEnabled":[NSNumber numberWithBool:_isAlertEnabled],
-//                                        @"alertTime":_alertTime
-                                        };
-    
-    return taskConfiguration;
-}
 
 - (void)saveTask {
     [ILDTaskDataPersistence saveTaskData:self.taskDataDictionary];
 }
-
-//- (void)updateLocalNotification:(NSString *)taskId taskDict:(NSDictionary *)taskDict {
-//    BOOL isAlertEnabled = [taskDict[@"isAlertEnabled"] boolValue];
-//    if (isAlertEnabled) {
-//        [ILDLocalNotificationHelper cancelLocalNotification:taskId];
-//        NSDate *alertTime = taskDict[@"alertTime"];;
-//        NSString *title = [NSString stringWithFormat:@"天道酬情 %@", taskDict[@"name"]];
-//        NSString *body = [NSString stringWithFormat:@"是时候开始您的%@任务了，保持专注，业精于勤。", taskDict[@"name"]];
-//        [ILDLocalNotificationHelper postLocalNotification:alertTime title:title body:body requestIdentifier:taskId];
-//    } else {
-//        [ILDLocalNotificationHelper cancelLocalNotification:taskId];
-//    }
-//}
 
 #pragma mark - Getter and Setter
 
