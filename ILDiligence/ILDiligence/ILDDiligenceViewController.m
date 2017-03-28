@@ -38,7 +38,6 @@
 
 @property(nonatomic, strong) NSArray *taskIds;
 @property(nonatomic, strong) ILDTaskModel *currentTaskModel;
-@property(nonatomic, strong) ILDStoryModel *storyModel;
 
 @property(nonatomic, strong) NSDate *startDate;
 @property(nonatomic, assign) NSInteger breakTimes;

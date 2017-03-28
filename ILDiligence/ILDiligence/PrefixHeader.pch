@@ -19,6 +19,9 @@
 #import <Masonry/Masonry.h>
 
 #import "ILDMacros.h"
+#import "ILURLConstants.h"
+#import "ILKeysConstants.h"
+
 #import "ColorHelper.h"
 
 #import "MusicHelper.h"
@@ -37,8 +40,7 @@
 
 
 
-#import "ILURLConstants.h"
-#import "ILKeysConstants.h"
+
 #import "TimerHelper.h"
 #import "ColorHelper.h"
 #import "MusicHelper.h"

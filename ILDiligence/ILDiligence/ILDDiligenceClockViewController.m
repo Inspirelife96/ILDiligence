@@ -76,6 +76,11 @@
     [self.diligenceClockView stopTimer];
 }
 
+- (void)updateDataAndView {
+    self.taskModel = [[ILDTaskDataCenter sharedInstance] taskConfigurationById:self.taskId];
+    self.backgroundView.backgroundColor = [ColorHelper colorByName:self.taskModel.color];
+}
+
 #pragma mark - Getter and Setter
 
 - (ILDDiligenceClockView *)diligenceClockView {
@@ -93,11 +98,6 @@
     }
     
     return _taskModel;
-}
-
-- (void)updateDataAndView {
-    _taskModel = [[ILDTaskDataCenter sharedInstance] taskConfigurationById:self.taskId];
-    self.backgroundView.backgroundColor = [ColorHelper colorByName:self.taskModel.color];
 }
 
 - (UIView *)backgroundView {

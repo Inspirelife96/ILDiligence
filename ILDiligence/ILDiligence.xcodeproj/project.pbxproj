@@ -43,6 +43,15 @@
 		7FDF57F51E8767BC00BE4D63 /* 梁祝.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57EE1E8767BC00BE4D63 /* 梁祝.m4a */; };
 		7FDF57F61E8767BC00BE4D63 /* 茉莉花.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57EF1E8767BC00BE4D63 /* 茉莉花.m4a */; };
 		7FDF57F71E8767BC00BE4D63 /* 江南雨.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57F01E8767BC00BE4D63 /* 江南雨.m4a */; };
+		7FE7BC1B1E8A1097004C1166 /* ILDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC1A1E8A1097004C1166 /* ILDBaseViewController.m */; };
+		7FE7BC201E8A1139004C1166 /* ILDLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC1F1E8A1139004C1166 /* ILDLogoView.m */; };
+		7FE7BC241E8A121D004C1166 /* ILDSettingDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC231E8A121D004C1166 /* ILDSettingDefaultCell.m */; };
+		7FE7BC291E8A12BE004C1166 /* UIViewController+SendEmailInApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC261E8A12BE004C1166 /* UIViewController+SendEmailInApp.m */; };
+		7FE7BC2A1E8A12BE004C1166 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC281E8A12BE004C1166 /* UIViewController+Alert.m */; };
+		7FE7BC2D1E8A12D7004C1166 /* ILDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC2C1E8A12D7004C1166 /* ILDAboutViewController.m */; };
+		7FE7BC301E8A139D004C1166 /* ILURLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC2F1E8A139D004C1166 /* ILURLConstants.m */; };
+		7FE7BC331E8A13A5004C1166 /* ILKeysConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC321E8A13A5004C1166 /* ILKeysConstants.m */; };
+		7FE7BC361E8A143C004C1166 /* UILabel+StringFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC351E8A143C004C1166 /* UILabel+StringFrame.m */; };
 		97BDE321E86EEF08CDF49FFC /* Pods_sharedPods_ILDiligence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CEFF9102DE4A9A688449E8 /* Pods_sharedPods_ILDiligence.framework */; };
 		AB685580D55EB85184403339 /* Pods_ILDiligence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC173DA99E06C7B12BF4DF0 /* Pods_ILDiligence.framework */; };
 /* End PBXBuildFile section */
@@ -141,6 +150,24 @@
 		7FDF57EE1E8767BC00BE4D63 /* 梁祝.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "梁祝.m4a"; sourceTree = "<group>"; };
 		7FDF57EF1E8767BC00BE4D63 /* 茉莉花.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "茉莉花.m4a"; sourceTree = "<group>"; };
 		7FDF57F01E8767BC00BE4D63 /* 江南雨.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "江南雨.m4a"; sourceTree = "<group>"; };
+		7FE7BC191E8A1097004C1166 /* ILDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDBaseViewController.h; sourceTree = "<group>"; };
+		7FE7BC1A1E8A1097004C1166 /* ILDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDBaseViewController.m; sourceTree = "<group>"; };
+		7FE7BC1E1E8A1139004C1166 /* ILDLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDLogoView.h; sourceTree = "<group>"; };
+		7FE7BC1F1E8A1139004C1166 /* ILDLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDLogoView.m; sourceTree = "<group>"; };
+		7FE7BC221E8A121D004C1166 /* ILDSettingDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDSettingDefaultCell.h; sourceTree = "<group>"; };
+		7FE7BC231E8A121D004C1166 /* ILDSettingDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDSettingDefaultCell.m; sourceTree = "<group>"; };
+		7FE7BC251E8A12BE004C1166 /* UIViewController+SendEmailInApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SendEmailInApp.h"; sourceTree = "<group>"; };
+		7FE7BC261E8A12BE004C1166 /* UIViewController+SendEmailInApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SendEmailInApp.m"; sourceTree = "<group>"; };
+		7FE7BC271E8A12BE004C1166 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		7FE7BC281E8A12BE004C1166 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
+		7FE7BC2B1E8A12D7004C1166 /* ILDAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDAboutViewController.h; sourceTree = "<group>"; };
+		7FE7BC2C1E8A12D7004C1166 /* ILDAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDAboutViewController.m; sourceTree = "<group>"; };
+		7FE7BC2E1E8A139D004C1166 /* ILURLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILURLConstants.h; sourceTree = "<group>"; };
+		7FE7BC2F1E8A139D004C1166 /* ILURLConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILURLConstants.m; sourceTree = "<group>"; };
+		7FE7BC311E8A13A5004C1166 /* ILKeysConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILKeysConstants.h; sourceTree = "<group>"; };
+		7FE7BC321E8A13A5004C1166 /* ILKeysConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILKeysConstants.m; sourceTree = "<group>"; };
+		7FE7BC341E8A143C004C1166 /* UILabel+StringFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+StringFrame.h"; sourceTree = "<group>"; };
+		7FE7BC351E8A143C004C1166 /* UILabel+StringFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+StringFrame.m"; sourceTree = "<group>"; };
 		E1AA241BCFE4559E59A17792 /* Pods-sharedPods-ILDiligence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPods-ILDiligence.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-sharedPods-ILDiligence/Pods-sharedPods-ILDiligence.debug.xcconfig"; sourceTree = "<group>"; };
 		EA183FC9F8E823A0A8F9A46E /* Pods-ILDiligence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ILDiligence.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ILDiligence/Pods-ILDiligence.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,6 +223,12 @@
 		7F6E01DD1E850E27005230BB /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7FE7BC251E8A12BE004C1166 /* UIViewController+SendEmailInApp.h */,
+				7FE7BC261E8A12BE004C1166 /* UIViewController+SendEmailInApp.m */,
+				7FE7BC271E8A12BE004C1166 /* UIViewController+Alert.h */,
+				7FE7BC281E8A12BE004C1166 /* UIViewController+Alert.m */,
+				7FE7BC341E8A143C004C1166 /* UILabel+StringFrame.h */,
+				7FE7BC351E8A143C004C1166 /* UILabel+StringFrame.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -205,6 +238,10 @@
 			children = (
 				7FDF57AB1E860C5600BE4D63 /* ILDMacros.h */,
 				7FDF57AC1E860C5600BE4D63 /* ILDMacros.m */,
+				7FE7BC2E1E8A139D004C1166 /* ILURLConstants.h */,
+				7FE7BC2F1E8A139D004C1166 /* ILURLConstants.m */,
+				7FE7BC311E8A13A5004C1166 /* ILKeysConstants.h */,
+				7FE7BC321E8A13A5004C1166 /* ILKeysConstants.m */,
 			);
 			name = Constant;
 			sourceTree = "<group>";
@@ -221,6 +258,7 @@
 		7F6E01E01E850E40005230BB /* MVCs */ = {
 			isa = PBXGroup;
 			children = (
+				7FE7BC181E8A1079004C1166 /* Base */,
 				7FDF57C11E8626E800BE4D63 /* Story */,
 				7FDF57B71E86266D00BE4D63 /* Task */,
 				7FDF57B61E86266800BE4D63 /* Setting */,
@@ -260,14 +298,41 @@
 		7F6E01E41E850E89005230BB /* Diligence */ = {
 			isa = PBXGroup;
 			children = (
+				7F7113A21E87CAF100A6DED7 /* Views */,
+				7F7113A11E87CAE600A6DED7 /* Controllers */,
+			);
+			name = Diligence;
+			sourceTree = "<group>";
+		};
+		7F7113A11E87CAE600A6DED7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				7FDF57A81E86092A00BE4D63 /* ILDDiligenceViewController.h */,
 				7FDF57A91E86092A00BE4D63 /* ILDDiligenceViewController.m */,
 				7FDF57AF1E861DCF00BE4D63 /* ILDDiligenceClockViewController.h */,
 				7FDF57B01E861DCF00BE4D63 /* ILDDiligenceClockViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7F7113A21E87CAF100A6DED7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				7FDF57B21E861FE500BE4D63 /* ILDDiligenceClockView.h */,
 				7FDF57B31E861FE500BE4D63 /* ILDDiligenceClockView.m */,
 			);
-			name = Diligence;
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7F7113A31E87CAFA00A6DED7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57BB1E8626A800BE4D63 /* ILDSettingViewController.h */,
+				7FDF57BC1E8626A800BE4D63 /* ILDSettingViewController.m */,
+				7FE7BC2B1E8A12D7004C1166 /* ILDAboutViewController.h */,
+				7FE7BC2C1E8A12D7004C1166 /* ILDAboutViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		7FA779C81E7CE1DF00050A6A = {
@@ -360,8 +425,8 @@
 		7FDF57B61E86266800BE4D63 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				7FDF57BB1E8626A800BE4D63 /* ILDSettingViewController.h */,
-				7FDF57BC1E8626A800BE4D63 /* ILDSettingViewController.m */,
+				7FE7BC211E8A120B004C1166 /* Views */,
+				7F7113A31E87CAFA00A6DED7 /* Controllers */,
 			);
 			name = Setting;
 			sourceTree = "<group>";
@@ -412,6 +477,42 @@
 				7FDF57F01E8767BC00BE4D63 /* 江南雨.m4a */,
 			);
 			name = Music;
+			sourceTree = "<group>";
+		};
+		7FE7BC181E8A1079004C1166 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7FE7BC1D1E8A1121004C1166 /* Views */,
+				7FE7BC1C1E8A110F004C1166 /* Controllers */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7FE7BC1C1E8A110F004C1166 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FE7BC191E8A1097004C1166 /* ILDBaseViewController.h */,
+				7FE7BC1A1E8A1097004C1166 /* ILDBaseViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7FE7BC1D1E8A1121004C1166 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FE7BC1E1E8A1139004C1166 /* ILDLogoView.h */,
+				7FE7BC1F1E8A1139004C1166 /* ILDLogoView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7FE7BC211E8A120B004C1166 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FE7BC221E8A121D004C1166 /* ILDSettingDefaultCell.h */,
+				7FE7BC231E8A121D004C1166 /* ILDSettingDefaultCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		8CF1200692564EA520E09867 /* Frameworks */ = {
@@ -626,17 +727,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FDF57B11E861DCF00BE4D63 /* ILDDiligenceClockViewController.m in Sources */,
+				7FE7BC201E8A1139004C1166 /* ILDLogoView.m in Sources */,
 				7FA779DC1E7CE1DF00050A6A /* ViewController.m in Sources */,
 				7FDF57B41E861FE500BE4D63 /* ILDDiligenceClockView.m in Sources */,
+				7FE7BC2D1E8A12D7004C1166 /* ILDAboutViewController.m in Sources */,
 				7FDF57BD1E8626A800BE4D63 /* ILDSettingViewController.m in Sources */,
 				7FDF57D71E8678EB00BE4D63 /* ILDRestSuggestion.m in Sources */,
+				7FE7BC2A1E8A12BE004C1166 /* UIViewController+Alert.m in Sources */,
+				7FE7BC361E8A143C004C1166 /* UILabel+StringFrame.m in Sources */,
 				7FDF57AD1E860C5600BE4D63 /* ILDMacros.m in Sources */,
+				7FE7BC1B1E8A1097004C1166 /* ILDBaseViewController.m in Sources */,
 				7FDF57CA1E8627FF00BE4D63 /* UIImageEffects.m in Sources */,
 				7FDF57E01E867DD100BE4D63 /* ColorHelper.m in Sources */,
+				7FE7BC301E8A139D004C1166 /* ILURLConstants.m in Sources */,
+				7FE7BC291E8A12BE004C1166 /* UIViewController+SendEmailInApp.m in Sources */,
 				7FA779D91E7CE1DF00050A6A /* AppDelegate.m in Sources */,
 				7FDF57C41E8626FA00BE4D63 /* ILDStoryViewController.m in Sources */,
 				7FDF57BA1E86268900BE4D63 /* ILDTaskListViewController.m in Sources */,
 				7FDF57CD1E862DC200BE4D63 /* MusicHelper.m in Sources */,
+				7FE7BC331E8A13A5004C1166 /* ILKeysConstants.m in Sources */,
+				7FE7BC241E8A121D004C1166 /* ILDSettingDefaultCell.m in Sources */,
 				7FA779D61E7CE1DF00050A6A /* main.m in Sources */,
 				7FDF57AA1E86092A00BE4D63 /* ILDDiligenceViewController.m in Sources */,
 				7FDF57C01E8626C200BE4D63 /* ILDStatisticsTodayViewController.m in Sources */,
