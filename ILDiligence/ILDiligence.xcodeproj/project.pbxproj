@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F8B2E4A1E8B4976004CD5DB /* ILDStatisticsHistoryDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B2E491E8B4976004CD5DB /* ILDStatisticsHistoryDataView.m */; };
+		7F8B2E501E8B4AAF004CD5DB /* ILDStatisticsHistoryDataGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B2E4F1E8B4AAF004CD5DB /* ILDStatisticsHistoryDataGroupView.m */; };
+		7F8B2E531E8B4BB0004CD5DB /* ILDStatisticsHistoryModel+IL_OperationsForViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B2E521E8B4BB0004CD5DB /* ILDStatisticsHistoryModel+IL_OperationsForViewData.m */; };
+		7F8B2E561E8B4E28004CD5DB /* ILDStatisticsHistoryBarChartGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B2E551E8B4E28004CD5DB /* ILDStatisticsHistoryBarChartGroupView.m */; };
+		7F8B2E591E8B4E4E004CD5DB /* ILDBarChartDataValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B2E581E8B4E4E004CD5DB /* ILDBarChartDataValueFormatter.m */; };
+		7F8B2E631E8B53C9004CD5DB /* ILDStatisticsHistoryBestDiligenceGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B2E621E8B53C9004CD5DB /* ILDStatisticsHistoryBestDiligenceGroupView.m */; };
 		7FA779D61E7CE1DF00050A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA779D51E7CE1DF00050A6A /* main.m */; };
 		7FA779D91E7CE1DF00050A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA779D81E7CE1DF00050A6A /* AppDelegate.m */; };
 		7FA779DC1E7CE1DF00050A6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA779DB1E7CE1DF00050A6A /* ViewController.m */; };
@@ -33,7 +39,7 @@
 		7FDF57CA1E8627FF00BE4D63 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57C91E8627FF00BE4D63 /* UIImageEffects.m */; };
 		7FDF57CD1E862DC200BE4D63 /* MusicHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57CC1E862DC200BE4D63 /* MusicHelper.m */; };
 		7FDF57D71E8678EB00BE4D63 /* ILDRestSuggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57D61E8678EB00BE4D63 /* ILDRestSuggestion.m */; };
-		7FDF57E01E867DD100BE4D63 /* ColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57DF1E867DD100BE4D63 /* ColorHelper.m */; };
+		7FDF57E01E867DD100BE4D63 /* ILDColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57DF1E867DD100BE4D63 /* ILDColorHelper.m */; };
 		7FDF57E71E8766AF00BE4D63 /* taskData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57E61E8766AF00BE4D63 /* taskData.plist */; };
 		7FDF57E91E8767B600BE4D63 /* 叶根友蚕燕隶书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57E81E8767B600BE4D63 /* 叶根友蚕燕隶书.ttf */; };
 		7FDF57F11E8767BC00BE4D63 /* 但愿相别不相忘.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF57EA1E8767BC00BE4D63 /* 但愿相别不相忘.m4a */; };
@@ -52,6 +58,16 @@
 		7FE7BC301E8A139D004C1166 /* ILURLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC2F1E8A139D004C1166 /* ILURLConstants.m */; };
 		7FE7BC331E8A13A5004C1166 /* ILKeysConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC321E8A13A5004C1166 /* ILKeysConstants.m */; };
 		7FE7BC361E8A143C004C1166 /* UILabel+StringFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC351E8A143C004C1166 /* UILabel+StringFrame.m */; };
+		7FE7BC391E8A38E5004C1166 /* ILDSharedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC381E8A38E5004C1166 /* ILDSharedView.m */; };
+		7FE7BC3D1E8A3A2A004C1166 /* UIView+IL_ViewToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC3C1E8A3A2A004C1166 /* UIView+IL_ViewToImage.m */; };
+		7FE7BC431E8A3CDB004C1166 /* ILDShareSDKHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC421E8A3CDB004C1166 /* ILDShareSDKHelper.m */; };
+		7FE7BC461E8A3DFE004C1166 /* UIView+IL_CurrentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC451E8A3DFE004C1166 /* UIView+IL_CurrentController.m */; };
+		7FE7BC4B1E8A45C9004C1166 /* ILDStatisticsHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC4A1E8A45C9004C1166 /* ILDStatisticsHistoryViewController.m */; };
+		7FE7BC4F1E8A78D6004C1166 /* ILDStatisticsTodayDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC4E1E8A78D6004C1166 /* ILDStatisticsTodayDataView.m */; };
+		7FE7BC561E8A8AC1004C1166 /* ILDStatisticsTodayModel+IL_OperationsForViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC551E8A8AC1004C1166 /* ILDStatisticsTodayModel+IL_OperationsForViewData.m */; };
+		7FE7BC591E8A8EA8004C1166 /* ILDPieChartDataModel+IL_OperationsForViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC581E8A8EA8004C1166 /* ILDPieChartDataModel+IL_OperationsForViewData.m */; };
+		7FE7BC5C1E8A9410004C1166 /* ILDStatisticsHistoryBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC5B1E8A9410004C1166 /* ILDStatisticsHistoryBarChartView.m */; };
+		7FE7BC5F1E8A941E004C1166 /* ILDStatisticsHistoryPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC5E1E8A941E004C1166 /* ILDStatisticsHistoryPieChartView.m */; };
 		97BDE321E86EEF08CDF49FFC /* Pods_sharedPods_ILDiligence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CEFF9102DE4A9A688449E8 /* Pods_sharedPods_ILDiligence.framework */; };
 		AB685580D55EB85184403339 /* Pods_ILDiligence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC173DA99E06C7B12BF4DF0 /* Pods_ILDiligence.framework */; };
 /* End PBXBuildFile section */
@@ -94,6 +110,18 @@
 		49E1C813C9767B44CA5A1468 /* Pods-ILDiligence.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ILDiligence.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ILDiligence/Pods-ILDiligence.release.xcconfig"; sourceTree = "<group>"; };
 		4CC173DA99E06C7B12BF4DF0 /* Pods_ILDiligence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ILDiligence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CEFF9102DE4A9A688449E8 /* Pods_sharedPods_ILDiligence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sharedPods_ILDiligence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8B2E481E8B4976004CD5DB /* ILDStatisticsHistoryDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsHistoryDataView.h; sourceTree = "<group>"; };
+		7F8B2E491E8B4976004CD5DB /* ILDStatisticsHistoryDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsHistoryDataView.m; sourceTree = "<group>"; };
+		7F8B2E4E1E8B4AAF004CD5DB /* ILDStatisticsHistoryDataGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsHistoryDataGroupView.h; sourceTree = "<group>"; };
+		7F8B2E4F1E8B4AAF004CD5DB /* ILDStatisticsHistoryDataGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsHistoryDataGroupView.m; sourceTree = "<group>"; };
+		7F8B2E511E8B4BB0004CD5DB /* ILDStatisticsHistoryModel+IL_OperationsForViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ILDStatisticsHistoryModel+IL_OperationsForViewData.h"; sourceTree = "<group>"; };
+		7F8B2E521E8B4BB0004CD5DB /* ILDStatisticsHistoryModel+IL_OperationsForViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ILDStatisticsHistoryModel+IL_OperationsForViewData.m"; sourceTree = "<group>"; };
+		7F8B2E541E8B4E28004CD5DB /* ILDStatisticsHistoryBarChartGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsHistoryBarChartGroupView.h; sourceTree = "<group>"; };
+		7F8B2E551E8B4E28004CD5DB /* ILDStatisticsHistoryBarChartGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsHistoryBarChartGroupView.m; sourceTree = "<group>"; };
+		7F8B2E571E8B4E4E004CD5DB /* ILDBarChartDataValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDBarChartDataValueFormatter.h; sourceTree = "<group>"; };
+		7F8B2E581E8B4E4E004CD5DB /* ILDBarChartDataValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDBarChartDataValueFormatter.m; sourceTree = "<group>"; };
+		7F8B2E611E8B53C9004CD5DB /* ILDStatisticsHistoryBestDiligenceGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsHistoryBestDiligenceGroupView.h; sourceTree = "<group>"; };
+		7F8B2E621E8B53C9004CD5DB /* ILDStatisticsHistoryBestDiligenceGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsHistoryBestDiligenceGroupView.m; sourceTree = "<group>"; };
 		7FA779D11E7CE1DF00050A6A /* ILDiligence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILDiligence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA779D51E7CE1DF00050A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7FA779D71E7CE1DF00050A6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -139,8 +167,8 @@
 		7FDF57D11E862EB800BE4D63 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ILDiligence-feexcqxyntcmcadzstzylsfygauz/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		7FDF57D51E8678EB00BE4D63 /* ILDRestSuggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILDRestSuggestion.h; path = ../../../INLEngery/energy/energy/ILDRestSuggestion.h; sourceTree = "<group>"; };
 		7FDF57D61E8678EB00BE4D63 /* ILDRestSuggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILDRestSuggestion.m; path = ../../../INLEngery/energy/energy/ILDRestSuggestion.m; sourceTree = "<group>"; };
-		7FDF57DE1E867DD100BE4D63 /* ColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorHelper.h; sourceTree = "<group>"; };
-		7FDF57DF1E867DD100BE4D63 /* ColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorHelper.m; sourceTree = "<group>"; };
+		7FDF57DE1E867DD100BE4D63 /* ILDColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDColorHelper.h; sourceTree = "<group>"; };
+		7FDF57DF1E867DD100BE4D63 /* ILDColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDColorHelper.m; sourceTree = "<group>"; };
 		7FDF57E61E8766AF00BE4D63 /* taskData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = taskData.plist; sourceTree = "<group>"; };
 		7FDF57E81E8767B600BE4D63 /* 叶根友蚕燕隶书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "叶根友蚕燕隶书.ttf"; sourceTree = "<group>"; };
 		7FDF57EA1E8767BC00BE4D63 /* 但愿相别不相忘.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "但愿相别不相忘.m4a"; sourceTree = "<group>"; };
@@ -168,6 +196,26 @@
 		7FE7BC321E8A13A5004C1166 /* ILKeysConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILKeysConstants.m; sourceTree = "<group>"; };
 		7FE7BC341E8A143C004C1166 /* UILabel+StringFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+StringFrame.h"; sourceTree = "<group>"; };
 		7FE7BC351E8A143C004C1166 /* UILabel+StringFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+StringFrame.m"; sourceTree = "<group>"; };
+		7FE7BC371E8A38E5004C1166 /* ILDSharedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDSharedView.h; sourceTree = "<group>"; };
+		7FE7BC381E8A38E5004C1166 /* ILDSharedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDSharedView.m; sourceTree = "<group>"; };
+		7FE7BC3B1E8A3A2A004C1166 /* UIView+IL_ViewToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IL_ViewToImage.h"; sourceTree = "<group>"; };
+		7FE7BC3C1E8A3A2A004C1166 /* UIView+IL_ViewToImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IL_ViewToImage.m"; sourceTree = "<group>"; };
+		7FE7BC411E8A3CDB004C1166 /* ILDShareSDKHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDShareSDKHelper.h; sourceTree = "<group>"; };
+		7FE7BC421E8A3CDB004C1166 /* ILDShareSDKHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDShareSDKHelper.m; sourceTree = "<group>"; };
+		7FE7BC441E8A3DFE004C1166 /* UIView+IL_CurrentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IL_CurrentController.h"; sourceTree = "<group>"; };
+		7FE7BC451E8A3DFE004C1166 /* UIView+IL_CurrentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IL_CurrentController.m"; sourceTree = "<group>"; };
+		7FE7BC491E8A45C9004C1166 /* ILDStatisticsHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsHistoryViewController.h; sourceTree = "<group>"; };
+		7FE7BC4A1E8A45C9004C1166 /* ILDStatisticsHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsHistoryViewController.m; sourceTree = "<group>"; };
+		7FE7BC4D1E8A78D6004C1166 /* ILDStatisticsTodayDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsTodayDataView.h; sourceTree = "<group>"; };
+		7FE7BC4E1E8A78D6004C1166 /* ILDStatisticsTodayDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsTodayDataView.m; sourceTree = "<group>"; };
+		7FE7BC541E8A8AC1004C1166 /* ILDStatisticsTodayModel+IL_OperationsForViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ILDStatisticsTodayModel+IL_OperationsForViewData.h"; sourceTree = "<group>"; };
+		7FE7BC551E8A8AC1004C1166 /* ILDStatisticsTodayModel+IL_OperationsForViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ILDStatisticsTodayModel+IL_OperationsForViewData.m"; sourceTree = "<group>"; };
+		7FE7BC571E8A8EA8004C1166 /* ILDPieChartDataModel+IL_OperationsForViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ILDPieChartDataModel+IL_OperationsForViewData.h"; sourceTree = "<group>"; };
+		7FE7BC581E8A8EA8004C1166 /* ILDPieChartDataModel+IL_OperationsForViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ILDPieChartDataModel+IL_OperationsForViewData.m"; sourceTree = "<group>"; };
+		7FE7BC5A1E8A9410004C1166 /* ILDStatisticsHistoryBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsHistoryBarChartView.h; sourceTree = "<group>"; };
+		7FE7BC5B1E8A9410004C1166 /* ILDStatisticsHistoryBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsHistoryBarChartView.m; sourceTree = "<group>"; };
+		7FE7BC5D1E8A941E004C1166 /* ILDStatisticsHistoryPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsHistoryPieChartView.h; sourceTree = "<group>"; };
+		7FE7BC5E1E8A941E004C1166 /* ILDStatisticsHistoryPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsHistoryPieChartView.m; sourceTree = "<group>"; };
 		E1AA241BCFE4559E59A17792 /* Pods-sharedPods-ILDiligence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPods-ILDiligence.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-sharedPods-ILDiligence/Pods-sharedPods-ILDiligence.debug.xcconfig"; sourceTree = "<group>"; };
 		EA183FC9F8E823A0A8F9A46E /* Pods-ILDiligence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ILDiligence.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ILDiligence/Pods-ILDiligence.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -229,6 +277,10 @@
 				7FE7BC281E8A12BE004C1166 /* UIViewController+Alert.m */,
 				7FE7BC341E8A143C004C1166 /* UILabel+StringFrame.h */,
 				7FE7BC351E8A143C004C1166 /* UILabel+StringFrame.m */,
+				7FE7BC3B1E8A3A2A004C1166 /* UIView+IL_ViewToImage.h */,
+				7FE7BC3C1E8A3A2A004C1166 /* UIView+IL_ViewToImage.m */,
+				7FE7BC441E8A3DFE004C1166 /* UIView+IL_CurrentController.h */,
+				7FE7BC451E8A3DFE004C1166 /* UIView+IL_CurrentController.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -281,8 +333,8 @@
 		7F6E01E31E850E63005230BB /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				7FDF57DE1E867DD100BE4D63 /* ColorHelper.h */,
-				7FDF57DF1E867DD100BE4D63 /* ColorHelper.m */,
+				7FDF57DE1E867DD100BE4D63 /* ILDColorHelper.h */,
+				7FDF57DF1E867DD100BE4D63 /* ILDColorHelper.m */,
 				7FDF57D51E8678EB00BE4D63 /* ILDRestSuggestion.h */,
 				7FDF57D61E8678EB00BE4D63 /* ILDRestSuggestion.m */,
 				7FDF57C51E8627DC00BE4D63 /* ILDScreenshotImageManager.h */,
@@ -291,6 +343,8 @@
 				7FDF57C91E8627FF00BE4D63 /* UIImageEffects.m */,
 				7FDF57CB1E862DC200BE4D63 /* MusicHelper.h */,
 				7FDF57CC1E862DC200BE4D63 /* MusicHelper.m */,
+				7FE7BC411E8A3CDB004C1166 /* ILDShareSDKHelper.h */,
+				7FE7BC421E8A3CDB004C1166 /* ILDShareSDKHelper.m */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -333,6 +387,58 @@
 				7FE7BC2C1E8A12D7004C1166 /* ILDAboutViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7F8B2E641E8B5EAF004CD5DB /* StatisticsToday */ = {
+			isa = PBXGroup;
+			children = (
+				7FE7BC4D1E8A78D6004C1166 /* ILDStatisticsTodayDataView.h */,
+				7FE7BC4E1E8A78D6004C1166 /* ILDStatisticsTodayDataView.m */,
+			);
+			name = StatisticsToday;
+			sourceTree = "<group>";
+		};
+		7F8B2E651E8B5ECF004CD5DB /* StatisticsHistory */ = {
+			isa = PBXGroup;
+			children = (
+				7F8B2E681E8B5EFA004CD5DB /* Shared */,
+				7F8B2E671E8B5EF3004CD5DB /* BarStyle */,
+				7F8B2E661E8B5EEB004CD5DB /* PieStyle */,
+			);
+			name = StatisticsHistory;
+			sourceTree = "<group>";
+		};
+		7F8B2E661E8B5EEB004CD5DB /* PieStyle */ = {
+			isa = PBXGroup;
+			children = (
+				7FE7BC5D1E8A941E004C1166 /* ILDStatisticsHistoryPieChartView.h */,
+				7FE7BC5E1E8A941E004C1166 /* ILDStatisticsHistoryPieChartView.m */,
+			);
+			name = PieStyle;
+			sourceTree = "<group>";
+		};
+		7F8B2E671E8B5EF3004CD5DB /* BarStyle */ = {
+			isa = PBXGroup;
+			children = (
+				7FE7BC5A1E8A9410004C1166 /* ILDStatisticsHistoryBarChartView.h */,
+				7FE7BC5B1E8A9410004C1166 /* ILDStatisticsHistoryBarChartView.m */,
+				7F8B2E541E8B4E28004CD5DB /* ILDStatisticsHistoryBarChartGroupView.h */,
+				7F8B2E551E8B4E28004CD5DB /* ILDStatisticsHistoryBarChartGroupView.m */,
+				7F8B2E611E8B53C9004CD5DB /* ILDStatisticsHistoryBestDiligenceGroupView.h */,
+				7F8B2E621E8B53C9004CD5DB /* ILDStatisticsHistoryBestDiligenceGroupView.m */,
+			);
+			name = BarStyle;
+			sourceTree = "<group>";
+		};
+		7F8B2E681E8B5EFA004CD5DB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7F8B2E4E1E8B4AAF004CD5DB /* ILDStatisticsHistoryDataGroupView.h */,
+				7F8B2E4F1E8B4AAF004CD5DB /* ILDStatisticsHistoryDataGroupView.m */,
+				7F8B2E481E8B4976004CD5DB /* ILDStatisticsHistoryDataView.h */,
+				7F8B2E491E8B4976004CD5DB /* ILDStatisticsHistoryDataView.m */,
+			);
+			name = Shared;
 			sourceTree = "<group>";
 		};
 		7FA779C81E7CE1DF00050A6A = {
@@ -416,8 +522,9 @@
 		7FDF57B51E86265D00BE4D63 /* Statistics */ = {
 			isa = PBXGroup;
 			children = (
-				7FDF57BE1E8626C200BE4D63 /* ILDStatisticsTodayViewController.h */,
-				7FDF57BF1E8626C200BE4D63 /* ILDStatisticsTodayViewController.m */,
+				7FE7BC501E8A89D4004C1166 /* Models */,
+				7FE7BC4C1E8A78B8004C1166 /* Views */,
+				7FE7BC481E8A45B0004C1166 /* Controllers */,
 			);
 			name = Statistics;
 			sourceTree = "<group>";
@@ -443,8 +550,8 @@
 		7FDF57C11E8626E800BE4D63 /* Story */ = {
 			isa = PBXGroup;
 			children = (
-				7FDF57C21E8626FA00BE4D63 /* ILDStoryViewController.h */,
-				7FDF57C31E8626FA00BE4D63 /* ILDStoryViewController.m */,
+				7FE7BC471E8A4369004C1166 /* Controllers */,
+				7FE7BC3A1E8A38E7004C1166 /* Views */,
 			);
 			name = Story;
 			sourceTree = "<group>";
@@ -513,6 +620,59 @@
 				7FE7BC231E8A121D004C1166 /* ILDSettingDefaultCell.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		7FE7BC3A1E8A38E7004C1166 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FE7BC371E8A38E5004C1166 /* ILDSharedView.h */,
+				7FE7BC381E8A38E5004C1166 /* ILDSharedView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7FE7BC471E8A4369004C1166 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57C21E8626FA00BE4D63 /* ILDStoryViewController.h */,
+				7FDF57C31E8626FA00BE4D63 /* ILDStoryViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7FE7BC481E8A45B0004C1166 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57BE1E8626C200BE4D63 /* ILDStatisticsTodayViewController.h */,
+				7FDF57BF1E8626C200BE4D63 /* ILDStatisticsTodayViewController.m */,
+				7FE7BC491E8A45C9004C1166 /* ILDStatisticsHistoryViewController.h */,
+				7FE7BC4A1E8A45C9004C1166 /* ILDStatisticsHistoryViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7FE7BC4C1E8A78B8004C1166 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F8B2E651E8B5ECF004CD5DB /* StatisticsHistory */,
+				7F8B2E641E8B5EAF004CD5DB /* StatisticsToday */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7FE7BC501E8A89D4004C1166 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F8B2E571E8B4E4E004CD5DB /* ILDBarChartDataValueFormatter.h */,
+				7F8B2E581E8B4E4E004CD5DB /* ILDBarChartDataValueFormatter.m */,
+				7FE7BC541E8A8AC1004C1166 /* ILDStatisticsTodayModel+IL_OperationsForViewData.h */,
+				7FE7BC551E8A8AC1004C1166 /* ILDStatisticsTodayModel+IL_OperationsForViewData.m */,
+				7F8B2E511E8B4BB0004CD5DB /* ILDStatisticsHistoryModel+IL_OperationsForViewData.h */,
+				7F8B2E521E8B4BB0004CD5DB /* ILDStatisticsHistoryModel+IL_OperationsForViewData.m */,
+				7FE7BC571E8A8EA8004C1166 /* ILDPieChartDataModel+IL_OperationsForViewData.h */,
+				7FE7BC581E8A8EA8004C1166 /* ILDPieChartDataModel+IL_OperationsForViewData.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		8CF1200692564EA520E09867 /* Frameworks */ = {
@@ -727,8 +887,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FDF57B11E861DCF00BE4D63 /* ILDDiligenceClockViewController.m in Sources */,
+				7FE7BC391E8A38E5004C1166 /* ILDSharedView.m in Sources */,
+				7FE7BC561E8A8AC1004C1166 /* ILDStatisticsTodayModel+IL_OperationsForViewData.m in Sources */,
 				7FE7BC201E8A1139004C1166 /* ILDLogoView.m in Sources */,
 				7FA779DC1E7CE1DF00050A6A /* ViewController.m in Sources */,
+				7FE7BC4B1E8A45C9004C1166 /* ILDStatisticsHistoryViewController.m in Sources */,
+				7F8B2E591E8B4E4E004CD5DB /* ILDBarChartDataValueFormatter.m in Sources */,
 				7FDF57B41E861FE500BE4D63 /* ILDDiligenceClockView.m in Sources */,
 				7FE7BC2D1E8A12D7004C1166 /* ILDAboutViewController.m in Sources */,
 				7FDF57BD1E8626A800BE4D63 /* ILDSettingViewController.m in Sources */,
@@ -737,18 +901,30 @@
 				7FE7BC361E8A143C004C1166 /* UILabel+StringFrame.m in Sources */,
 				7FDF57AD1E860C5600BE4D63 /* ILDMacros.m in Sources */,
 				7FE7BC1B1E8A1097004C1166 /* ILDBaseViewController.m in Sources */,
+				7FE7BC431E8A3CDB004C1166 /* ILDShareSDKHelper.m in Sources */,
+				7FE7BC4F1E8A78D6004C1166 /* ILDStatisticsTodayDataView.m in Sources */,
 				7FDF57CA1E8627FF00BE4D63 /* UIImageEffects.m in Sources */,
-				7FDF57E01E867DD100BE4D63 /* ColorHelper.m in Sources */,
+				7F8B2E501E8B4AAF004CD5DB /* ILDStatisticsHistoryDataGroupView.m in Sources */,
+				7FDF57E01E867DD100BE4D63 /* ILDColorHelper.m in Sources */,
 				7FE7BC301E8A139D004C1166 /* ILURLConstants.m in Sources */,
 				7FE7BC291E8A12BE004C1166 /* UIViewController+SendEmailInApp.m in Sources */,
+				7F8B2E561E8B4E28004CD5DB /* ILDStatisticsHistoryBarChartGroupView.m in Sources */,
+				7F8B2E531E8B4BB0004CD5DB /* ILDStatisticsHistoryModel+IL_OperationsForViewData.m in Sources */,
+				7F8B2E4A1E8B4976004CD5DB /* ILDStatisticsHistoryDataView.m in Sources */,
+				7FE7BC591E8A8EA8004C1166 /* ILDPieChartDataModel+IL_OperationsForViewData.m in Sources */,
+				7FE7BC5F1E8A941E004C1166 /* ILDStatisticsHistoryPieChartView.m in Sources */,
 				7FA779D91E7CE1DF00050A6A /* AppDelegate.m in Sources */,
 				7FDF57C41E8626FA00BE4D63 /* ILDStoryViewController.m in Sources */,
 				7FDF57BA1E86268900BE4D63 /* ILDTaskListViewController.m in Sources */,
+				7FE7BC461E8A3DFE004C1166 /* UIView+IL_CurrentController.m in Sources */,
 				7FDF57CD1E862DC200BE4D63 /* MusicHelper.m in Sources */,
 				7FE7BC331E8A13A5004C1166 /* ILKeysConstants.m in Sources */,
 				7FE7BC241E8A121D004C1166 /* ILDSettingDefaultCell.m in Sources */,
+				7FE7BC3D1E8A3A2A004C1166 /* UIView+IL_ViewToImage.m in Sources */,
 				7FA779D61E7CE1DF00050A6A /* main.m in Sources */,
+				7F8B2E631E8B53C9004CD5DB /* ILDStatisticsHistoryBestDiligenceGroupView.m in Sources */,
 				7FDF57AA1E86092A00BE4D63 /* ILDDiligenceViewController.m in Sources */,
+				7FE7BC5C1E8A9410004C1166 /* ILDStatisticsHistoryBarChartView.m in Sources */,
 				7FDF57C01E8626C200BE4D63 /* ILDStatisticsTodayViewController.m in Sources */,
 				7FDF57C71E8627DC00BE4D63 /* ILDScreenshotImageManager.m in Sources */,
 			);

@@ -78,7 +78,7 @@
 
 - (void)updateDataAndView {
     self.taskModel = [[ILDTaskDataCenter sharedInstance] taskConfigurationById:self.taskId];
-    self.backgroundView.backgroundColor = [ColorHelper colorByName:self.taskModel.color];
+    self.backgroundView.backgroundColor = [ILDColorHelper colorByName:self.taskModel.color];
 }
 
 #pragma mark - Getter and Setter

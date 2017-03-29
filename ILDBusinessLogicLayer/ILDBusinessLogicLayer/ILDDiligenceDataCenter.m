@@ -161,7 +161,11 @@ static ILDDiligenceDataCenter *sharedInstance = nil;
     ILDStatisticsTodayModel *statisticsTodayModel = [[ILDStatisticsTodayModel alloc] init];
     statisticsTodayModel.diligenceTimes = [NSNumber numberWithInteger:diligenceTimes];
     statisticsTodayModel.diligenceHours = [NSNumber numberWithFloat:diligenceMinutes/60.0f];
-    statisticsTodayModel.diligenceFocusPercentage = [NSNumber numberWithFloat:((float)diligenceFocusScore)/diligenceTimes];
+    if (diligenceTimes != 0) {
+        statisticsTodayModel.diligenceFocusPercentage = [NSNumber numberWithFloat:((float)diligenceFocusScore)/diligenceTimes];
+    } else {
+        statisticsTodayModel.diligenceFocusPercentage = [NSNumber numberWithFloat:0];
+    }
     statisticsTodayModel.diligenceDataArray = diligenceArray;
     
     return statisticsTodayModel;
@@ -172,8 +176,10 @@ static ILDDiligenceDataCenter *sharedInstance = nil;
     NSInteger diligenceTimesInTotal = [self.tableDictionary count];
     NSInteger diligenceMinutesInTotal = [self calculateDiligenceMinutes:[self.tableDictionary allKeys]];
     NSInteger diligenceDaysInTotal = [self.dayIndexDictionary count];
-    NSInteger diligenceEverageMinutes = diligenceMinutesInTotal/diligenceDaysInTotal;
-    
+    NSInteger diligenceEverageMinutes = 0;
+    if (diligenceDaysInTotal > 0) {
+        diligenceEverageMinutes = diligenceMinutesInTotal/diligenceDaysInTotal;
+    }
     
     __block NSString *bestTaskName = @"-";
     NSMutableArray *dataForPieChartArray = [[NSMutableArray alloc] init];

@@ -1,5 +1,5 @@
 //
-//  ColorHelper.h
+//  ILDColorHelper.h
 //  energy
 //
 //  Created by XueFeng Chen on 2017/2/21.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ColorHelper : NSObject
+@interface ILDColorHelper : NSObject
 
 + (UIColor *)colorByName:(NSString *)colorString;
 + (NSArray *)colorNameList;

@@ -22,7 +22,8 @@
 #import "ILURLConstants.h"
 #import "ILKeysConstants.h"
 
-#import "ColorHelper.h"
+#import "ILDColorHelper.h"
+#import "ILDShareSDKHelper.h"
 
 #import "MusicHelper.h"
 #import <Charts/Charts-Swift.h>
@@ -42,7 +43,7 @@
 
 
 #import "TimerHelper.h"
-#import "ColorHelper.h"
+#import "ILDColorHelper.h"
 #import "MusicHelper.h"
 #import "WeekDaysHelper.h"
 

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ILDBaseViewController.h"
 
-@interface ILDStatisticsTodayViewController : UIViewController
+@interface ILDStatisticsTodayViewController : ILDBaseViewController
 
 @end

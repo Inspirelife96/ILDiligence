@@ -23,6 +23,8 @@
     [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];
     [[UINavigationBar appearance] setTintColor:FlatWhite];
     
+    [ILDShareSDKHelper initShareSDK];
+    
     return YES;
 }
 

@@ -1,14 +1,14 @@
 //
-//  ColorHelper.m
+//  ILDColorHelper.m
 //  energy
 //
 //  Created by XueFeng Chen on 2017/2/21.
 //  Copyright © 2017年 Chen XueFeng. All rights reserved.
 //
 
-#import "ColorHelper.h"
+#import "ILDColorHelper.h"
 
-@implementation ColorHelper
+@implementation ILDColorHelper
 
 + (UIColor *)colorByName:(NSString *)colorString {
     NSDictionary *colorDict = @{

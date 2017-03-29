@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ILDBaseViewController.h"
 
-@interface ILDStoryViewController : UIViewController
+@interface ILDStoryViewController : ILDBaseViewController
 
 @end
