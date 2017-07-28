@@ -122,4 +122,104 @@
     return [[ILDDateHelper weekDaysList] objectAtIndex:index - 1];
 }
 
++ (NSArray *)diligenceTimeList {
+    return @[
+             @"5",
+             @"10",
+             @"15",
+             @"20",
+             @"25",
+             @"30",
+             @"35",
+             @"40",
+             @"45",
+             @"50",
+             @"55",
+             @"60",
+             @"90",
+             @"120",
+             ];
+}
+
++ (NSArray *)diligenceTimeType {
+    return @[
+             @"分钟"
+             ];
+}
+
++ (NSArray *)restTimeList {
+    return @[
+             @"5",
+             @"10",
+             @"15",
+             @"20",
+             @"25",
+             @"30",
+             ];
+}
+
++ (NSArray *)restTimeType {
+    return @[
+             @"分钟"
+             ];
+}
+
++ (NSArray *)alertHourList {
+    return @[
+             @"00",
+             @"01",
+             @"02",
+             @"03",
+             @"04",
+             @"05",
+             @"06",
+             @"07",
+             @"08",
+             @"09",
+             @"10",
+             @"11",
+             @"12",
+             @"13",
+             @"14",
+             @"15",
+             @"16",
+             @"17",
+             @"18",
+             @"19",
+             @"20",
+             @"21",
+             @"22",
+             @"23",
+             ];
+}
+
++ (NSArray *)alertMinuteList {
+    return @[
+             @"00",
+             @"05",
+             @"10",
+             @"15",
+             @"20",
+             @"25",
+             @"30",
+             @"35",
+             @"40",
+             @"45",
+             @"50",
+             @"55",
+             ];
+}
+
++ (NSString *)dateToString:(NSDate *)date withForamt:(NSString *)format {
+    NSDateFormatter* dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:format];
+    return [dateFormat stringFromDate:date];
+}
+
++ (NSDate *)stringToDate:(NSString *)dateString withForamt:(NSString *)format {
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    dateFormat.dateFormat = format;
+    return [dateFormat dateFromString:dateString];
+}
+
 @end

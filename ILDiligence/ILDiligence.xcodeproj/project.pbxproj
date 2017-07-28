@@ -27,6 +27,23 @@
 		7FA77A221E7CEACE00050A6A /* ILDNetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A201E7CEACE00050A6A /* ILDNetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7FA77A241E7CEACE00050A6A /* ILDPersistenceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A231E7CEACE00050A6A /* ILDPersistenceLayer.framework */; };
 		7FA77A251E7CEACE00050A6A /* ILDPersistenceLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA77A231E7CEACE00050A6A /* ILDPersistenceLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7FB515311EC7E5DD00289F22 /* ILDTaskListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515301EC7E5DD00289F22 /* ILDTaskListCell.m */; };
+		7FB515341EC7E7B900289F22 /* ILDTaskModel+IL_OperationsForViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515331EC7E7B900289F22 /* ILDTaskModel+IL_OperationsForViewData.m */; };
+		7FB515371EC7E9C600289F22 /* UIImage+IL_ContentWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515361EC7E9C600289F22 /* UIImage+IL_ContentWithColor.m */; };
+		7FB5153B1EC828C500289F22 /* ILDTaskConfigurationNavigateModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5153A1EC828C500289F22 /* ILDTaskConfigurationNavigateModeViewController.m */; };
+		7FB5153E1EC828D900289F22 /* ILDTaskConfigurationPresentModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5153D1EC828D900289F22 /* ILDTaskConfigurationPresentModeViewController.m */; };
+		7FB515411EC829A600289F22 /* ILDTaskConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515401EC829A600289F22 /* ILDTaskConfigurationViewController.m */; };
+		7FB515441EC82B2800289F22 /* ILDTaskConfigurationDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515431EC82B2800289F22 /* ILDTaskConfigurationDefaultCell.m */; };
+		7FB515471EC82B3E00289F22 /* ILDTaskConfigurationSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515461EC82B3E00289F22 /* ILDTaskConfigurationSwitchCell.m */; };
+		7FB5154A1EC82D6E00289F22 /* ILDTaskNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515491EC82D6E00289F22 /* ILDTaskNameViewController.m */; };
+		7FB515591EC82E7300289F22 /* ILDColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5154C1EC82E7300289F22 /* ILDColorPickerViewController.m */; };
+		7FB5155A1EC82E7300289F22 /* ILDDiligenceTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5154E1EC82E7300289F22 /* ILDDiligenceTimeViewController.m */; };
+		7FB5155B1EC82E7300289F22 /* ILDRestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515501EC82E7300289F22 /* ILDRestViewController.m */; };
+		7FB5155C1EC82E7300289F22 /* ILDRestTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515521EC82E7300289F22 /* ILDRestTimeViewController.m */; };
+		7FB5155D1EC82E7300289F22 /* ILDMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515541EC82E7300289F22 /* ILDMusicViewController.m */; };
+		7FB5155E1EC82E7300289F22 /* ILDAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515561EC82E7300289F22 /* ILDAlertViewController.m */; };
+		7FB5155F1EC82E7300289F22 /* ILDAlertTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515581EC82E7300289F22 /* ILDAlertTimeViewController.m */; };
+		7FB515621EC82FC300289F22 /* ILDColorPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB515611EC82FC300289F22 /* ILDColorPickerCell.m */; };
 		7FDF57AA1E86092A00BE4D63 /* ILDDiligenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57A91E86092A00BE4D63 /* ILDDiligenceViewController.m */; };
 		7FDF57AD1E860C5600BE4D63 /* ILDMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57AC1E860C5600BE4D63 /* ILDMacros.m */; };
 		7FDF57B11E861DCF00BE4D63 /* ILDDiligenceClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF57B01E861DCF00BE4D63 /* ILDDiligenceClockViewController.m */; };
@@ -141,6 +158,40 @@
 		7FA77A1D1E7CEACE00050A6A /* ILDBusinessLogicLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ILDBusinessLogicLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA77A201E7CEACE00050A6A /* ILDNetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ILDNetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA77A231E7CEACE00050A6A /* ILDPersistenceLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ILDPersistenceLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB5152F1EC7E5DD00289F22 /* ILDTaskListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDTaskListCell.h; sourceTree = "<group>"; };
+		7FB515301EC7E5DD00289F22 /* ILDTaskListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDTaskListCell.m; sourceTree = "<group>"; };
+		7FB515321EC7E7B900289F22 /* ILDTaskModel+IL_OperationsForViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ILDTaskModel+IL_OperationsForViewData.h"; sourceTree = "<group>"; };
+		7FB515331EC7E7B900289F22 /* ILDTaskModel+IL_OperationsForViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ILDTaskModel+IL_OperationsForViewData.m"; sourceTree = "<group>"; };
+		7FB515351EC7E9C600289F22 /* UIImage+IL_ContentWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IL_ContentWithColor.h"; sourceTree = "<group>"; };
+		7FB515361EC7E9C600289F22 /* UIImage+IL_ContentWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IL_ContentWithColor.m"; sourceTree = "<group>"; };
+		7FB515391EC828C500289F22 /* ILDTaskConfigurationNavigateModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDTaskConfigurationNavigateModeViewController.h; sourceTree = "<group>"; };
+		7FB5153A1EC828C500289F22 /* ILDTaskConfigurationNavigateModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDTaskConfigurationNavigateModeViewController.m; sourceTree = "<group>"; };
+		7FB5153C1EC828D900289F22 /* ILDTaskConfigurationPresentModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDTaskConfigurationPresentModeViewController.h; sourceTree = "<group>"; };
+		7FB5153D1EC828D900289F22 /* ILDTaskConfigurationPresentModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDTaskConfigurationPresentModeViewController.m; sourceTree = "<group>"; };
+		7FB5153F1EC829A600289F22 /* ILDTaskConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDTaskConfigurationViewController.h; sourceTree = "<group>"; };
+		7FB515401EC829A600289F22 /* ILDTaskConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDTaskConfigurationViewController.m; sourceTree = "<group>"; };
+		7FB515421EC82B2800289F22 /* ILDTaskConfigurationDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDTaskConfigurationDefaultCell.h; sourceTree = "<group>"; };
+		7FB515431EC82B2800289F22 /* ILDTaskConfigurationDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDTaskConfigurationDefaultCell.m; sourceTree = "<group>"; };
+		7FB515451EC82B3E00289F22 /* ILDTaskConfigurationSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDTaskConfigurationSwitchCell.h; sourceTree = "<group>"; };
+		7FB515461EC82B3E00289F22 /* ILDTaskConfigurationSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDTaskConfigurationSwitchCell.m; sourceTree = "<group>"; };
+		7FB515481EC82D6E00289F22 /* ILDTaskNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDTaskNameViewController.h; sourceTree = "<group>"; };
+		7FB515491EC82D6E00289F22 /* ILDTaskNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDTaskNameViewController.m; sourceTree = "<group>"; };
+		7FB5154B1EC82E7300289F22 /* ILDColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDColorPickerViewController.h; sourceTree = "<group>"; };
+		7FB5154C1EC82E7300289F22 /* ILDColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDColorPickerViewController.m; sourceTree = "<group>"; };
+		7FB5154D1EC82E7300289F22 /* ILDDiligenceTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDDiligenceTimeViewController.h; sourceTree = "<group>"; };
+		7FB5154E1EC82E7300289F22 /* ILDDiligenceTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDDiligenceTimeViewController.m; sourceTree = "<group>"; };
+		7FB5154F1EC82E7300289F22 /* ILDRestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDRestViewController.h; sourceTree = "<group>"; };
+		7FB515501EC82E7300289F22 /* ILDRestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDRestViewController.m; sourceTree = "<group>"; };
+		7FB515511EC82E7300289F22 /* ILDRestTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDRestTimeViewController.h; sourceTree = "<group>"; };
+		7FB515521EC82E7300289F22 /* ILDRestTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDRestTimeViewController.m; sourceTree = "<group>"; };
+		7FB515531EC82E7300289F22 /* ILDMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDMusicViewController.h; sourceTree = "<group>"; };
+		7FB515541EC82E7300289F22 /* ILDMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDMusicViewController.m; sourceTree = "<group>"; };
+		7FB515551EC82E7300289F22 /* ILDAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDAlertViewController.h; sourceTree = "<group>"; };
+		7FB515561EC82E7300289F22 /* ILDAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDAlertViewController.m; sourceTree = "<group>"; };
+		7FB515571EC82E7300289F22 /* ILDAlertTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDAlertTimeViewController.h; sourceTree = "<group>"; };
+		7FB515581EC82E7300289F22 /* ILDAlertTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDAlertTimeViewController.m; sourceTree = "<group>"; };
+		7FB515601EC82FC300289F22 /* ILDColorPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDColorPickerCell.h; sourceTree = "<group>"; };
+		7FB515611EC82FC300289F22 /* ILDColorPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDColorPickerCell.m; sourceTree = "<group>"; };
 		7FDF57A81E86092A00BE4D63 /* ILDDiligenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDDiligenceViewController.h; sourceTree = "<group>"; };
 		7FDF57A91E86092A00BE4D63 /* ILDDiligenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDDiligenceViewController.m; sourceTree = "<group>"; };
 		7FDF57AB1E860C5600BE4D63 /* ILDMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDMacros.h; sourceTree = "<group>"; };
@@ -261,13 +312,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7F6E01DC1E850E22005230BB /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
 		7F6E01DD1E850E27005230BB /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +325,8 @@
 				7FE7BC3C1E8A3A2A004C1166 /* UIView+IL_ViewToImage.m */,
 				7FE7BC441E8A3DFE004C1166 /* UIView+IL_CurrentController.h */,
 				7FE7BC451E8A3DFE004C1166 /* UIView+IL_CurrentController.m */,
+				7FB515351EC7E9C600289F22 /* UIImage+IL_ContentWithColor.h */,
+				7FB515361EC7E9C600289F22 /* UIImage+IL_ContentWithColor.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -466,7 +512,6 @@
 		7FA779D31E7CE1DF00050A6A /* ILDiligence */ = {
 			isa = PBXGroup;
 			children = (
-				7F6E01DC1E850E22005230BB /* Base */,
 				7F6E01DD1E850E27005230BB /* Category */,
 				7F6E01DE1E850E2E005230BB /* Constant */,
 				7F6E01DF1E850E35005230BB /* External */,
@@ -510,6 +555,68 @@
 			path = ILDiligenceUITests;
 			sourceTree = "<group>";
 		};
+		7FB5152C1EC7E3E100289F22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FB5152F1EC7E5DD00289F22 /* ILDTaskListCell.h */,
+				7FB515301EC7E5DD00289F22 /* ILDTaskListCell.m */,
+				7FB515421EC82B2800289F22 /* ILDTaskConfigurationDefaultCell.h */,
+				7FB515431EC82B2800289F22 /* ILDTaskConfigurationDefaultCell.m */,
+				7FB515451EC82B3E00289F22 /* ILDTaskConfigurationSwitchCell.h */,
+				7FB515461EC82B3E00289F22 /* ILDTaskConfigurationSwitchCell.m */,
+				7FB515601EC82FC300289F22 /* ILDColorPickerCell.h */,
+				7FB515611EC82FC300289F22 /* ILDColorPickerCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7FB5152D1EC7E3EF00289F22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FB515321EC7E7B900289F22 /* ILDTaskModel+IL_OperationsForViewData.h */,
+				7FB515331EC7E7B900289F22 /* ILDTaskModel+IL_OperationsForViewData.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7FB5152E1EC7E3F800289F22 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF57B81E86268900BE4D63 /* ILDTaskListViewController.h */,
+				7FDF57B91E86268900BE4D63 /* ILDTaskListViewController.m */,
+				7FB5153F1EC829A600289F22 /* ILDTaskConfigurationViewController.h */,
+				7FB515401EC829A600289F22 /* ILDTaskConfigurationViewController.m */,
+				7FB515481EC82D6E00289F22 /* ILDTaskNameViewController.h */,
+				7FB515491EC82D6E00289F22 /* ILDTaskNameViewController.m */,
+				7FB5154B1EC82E7300289F22 /* ILDColorPickerViewController.h */,
+				7FB5154C1EC82E7300289F22 /* ILDColorPickerViewController.m */,
+				7FB5154D1EC82E7300289F22 /* ILDDiligenceTimeViewController.h */,
+				7FB5154E1EC82E7300289F22 /* ILDDiligenceTimeViewController.m */,
+				7FB5154F1EC82E7300289F22 /* ILDRestViewController.h */,
+				7FB515501EC82E7300289F22 /* ILDRestViewController.m */,
+				7FB515511EC82E7300289F22 /* ILDRestTimeViewController.h */,
+				7FB515521EC82E7300289F22 /* ILDRestTimeViewController.m */,
+				7FB515531EC82E7300289F22 /* ILDMusicViewController.h */,
+				7FB515541EC82E7300289F22 /* ILDMusicViewController.m */,
+				7FB515551EC82E7300289F22 /* ILDAlertViewController.h */,
+				7FB515561EC82E7300289F22 /* ILDAlertViewController.m */,
+				7FB515571EC82E7300289F22 /* ILDAlertTimeViewController.h */,
+				7FB515581EC82E7300289F22 /* ILDAlertTimeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7FB515381EC8284700289F22 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7FB515391EC828C500289F22 /* ILDTaskConfigurationNavigateModeViewController.h */,
+				7FB5153A1EC828C500289F22 /* ILDTaskConfigurationNavigateModeViewController.m */,
+				7FB5153C1EC828D900289F22 /* ILDTaskConfigurationPresentModeViewController.h */,
+				7FB5153D1EC828D900289F22 /* ILDTaskConfigurationPresentModeViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		7FDF57A71E86015600BE4D63 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -541,8 +648,10 @@
 		7FDF57B71E86266D00BE4D63 /* Task */ = {
 			isa = PBXGroup;
 			children = (
-				7FDF57B81E86268900BE4D63 /* ILDTaskListViewController.h */,
-				7FDF57B91E86268900BE4D63 /* ILDTaskListViewController.m */,
+				7FB515381EC8284700289F22 /* Base */,
+				7FB5152D1EC7E3EF00289F22 /* Models */,
+				7FB5152C1EC7E3E100289F22 /* Views */,
+				7FB5152E1EC7E3F800289F22 /* Controllers */,
 			);
 			name = Task;
 			sourceTree = "<group>";
@@ -754,7 +863,7 @@
 		7FA779C91E7CE1DF00050A6A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "XueFeng Chen";
 				TargetAttributes = {
 					7FA779D01E7CE1DF00050A6A = {
@@ -888,22 +997,34 @@
 			files = (
 				7FDF57B11E861DCF00BE4D63 /* ILDDiligenceClockViewController.m in Sources */,
 				7FE7BC391E8A38E5004C1166 /* ILDSharedView.m in Sources */,
+				7FB5155B1EC82E7300289F22 /* ILDRestViewController.m in Sources */,
+				7FB515371EC7E9C600289F22 /* UIImage+IL_ContentWithColor.m in Sources */,
 				7FE7BC561E8A8AC1004C1166 /* ILDStatisticsTodayModel+IL_OperationsForViewData.m in Sources */,
+				7FB5155C1EC82E7300289F22 /* ILDRestTimeViewController.m in Sources */,
+				7FB5155A1EC82E7300289F22 /* ILDDiligenceTimeViewController.m in Sources */,
 				7FE7BC201E8A1139004C1166 /* ILDLogoView.m in Sources */,
 				7FA779DC1E7CE1DF00050A6A /* ViewController.m in Sources */,
+				7FB515621EC82FC300289F22 /* ILDColorPickerCell.m in Sources */,
+				7FB515341EC7E7B900289F22 /* ILDTaskModel+IL_OperationsForViewData.m in Sources */,
 				7FE7BC4B1E8A45C9004C1166 /* ILDStatisticsHistoryViewController.m in Sources */,
+				7FB515591EC82E7300289F22 /* ILDColorPickerViewController.m in Sources */,
 				7F8B2E591E8B4E4E004CD5DB /* ILDBarChartDataValueFormatter.m in Sources */,
 				7FDF57B41E861FE500BE4D63 /* ILDDiligenceClockView.m in Sources */,
+				7FB5155F1EC82E7300289F22 /* ILDAlertTimeViewController.m in Sources */,
 				7FE7BC2D1E8A12D7004C1166 /* ILDAboutViewController.m in Sources */,
 				7FDF57BD1E8626A800BE4D63 /* ILDSettingViewController.m in Sources */,
 				7FDF57D71E8678EB00BE4D63 /* ILDRestSuggestion.m in Sources */,
 				7FE7BC2A1E8A12BE004C1166 /* UIViewController+Alert.m in Sources */,
+				7FB515471EC82B3E00289F22 /* ILDTaskConfigurationSwitchCell.m in Sources */,
+				7FB5155E1EC82E7300289F22 /* ILDAlertViewController.m in Sources */,
 				7FE7BC361E8A143C004C1166 /* UILabel+StringFrame.m in Sources */,
+				7FB515441EC82B2800289F22 /* ILDTaskConfigurationDefaultCell.m in Sources */,
 				7FDF57AD1E860C5600BE4D63 /* ILDMacros.m in Sources */,
 				7FE7BC1B1E8A1097004C1166 /* ILDBaseViewController.m in Sources */,
 				7FE7BC431E8A3CDB004C1166 /* ILDShareSDKHelper.m in Sources */,
 				7FE7BC4F1E8A78D6004C1166 /* ILDStatisticsTodayDataView.m in Sources */,
 				7FDF57CA1E8627FF00BE4D63 /* UIImageEffects.m in Sources */,
+				7FB5153B1EC828C500289F22 /* ILDTaskConfigurationNavigateModeViewController.m in Sources */,
 				7F8B2E501E8B4AAF004CD5DB /* ILDStatisticsHistoryDataGroupView.m in Sources */,
 				7FDF57E01E867DD100BE4D63 /* ILDColorHelper.m in Sources */,
 				7FE7BC301E8A139D004C1166 /* ILURLConstants.m in Sources */,
@@ -914,16 +1035,21 @@
 				7FE7BC591E8A8EA8004C1166 /* ILDPieChartDataModel+IL_OperationsForViewData.m in Sources */,
 				7FE7BC5F1E8A941E004C1166 /* ILDStatisticsHistoryPieChartView.m in Sources */,
 				7FA779D91E7CE1DF00050A6A /* AppDelegate.m in Sources */,
+				7FB515311EC7E5DD00289F22 /* ILDTaskListCell.m in Sources */,
 				7FDF57C41E8626FA00BE4D63 /* ILDStoryViewController.m in Sources */,
 				7FDF57BA1E86268900BE4D63 /* ILDTaskListViewController.m in Sources */,
 				7FE7BC461E8A3DFE004C1166 /* UIView+IL_CurrentController.m in Sources */,
+				7FB5153E1EC828D900289F22 /* ILDTaskConfigurationPresentModeViewController.m in Sources */,
 				7FDF57CD1E862DC200BE4D63 /* MusicHelper.m in Sources */,
+				7FB5155D1EC82E7300289F22 /* ILDMusicViewController.m in Sources */,
 				7FE7BC331E8A13A5004C1166 /* ILKeysConstants.m in Sources */,
 				7FE7BC241E8A121D004C1166 /* ILDSettingDefaultCell.m in Sources */,
 				7FE7BC3D1E8A3A2A004C1166 /* UIView+IL_ViewToImage.m in Sources */,
 				7FA779D61E7CE1DF00050A6A /* main.m in Sources */,
+				7FB515411EC829A600289F22 /* ILDTaskConfigurationViewController.m in Sources */,
 				7F8B2E631E8B53C9004CD5DB /* ILDStatisticsHistoryBestDiligenceGroupView.m in Sources */,
 				7FDF57AA1E86092A00BE4D63 /* ILDDiligenceViewController.m in Sources */,
+				7FB5154A1EC82D6E00289F22 /* ILDTaskNameViewController.m in Sources */,
 				7FE7BC5C1E8A9410004C1166 /* ILDStatisticsHistoryBarChartView.m in Sources */,
 				7FDF57C01E8626C200BE4D63 /* ILDStatisticsTodayViewController.m in Sources */,
 				7FDF57C71E8627DC00BE4D63 /* ILDScreenshotImageManager.m in Sources */,
@@ -1077,6 +1203,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1AA241BCFE4559E59A17792 /* Pods-sharedPods-ILDiligence.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 86MNLPUJYP;
 				INFOPLIST_FILE = ILDiligence/Info.plist;
@@ -1091,6 +1218,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 229D9AE58422A2BFC110C8F6 /* Pods-sharedPods-ILDiligence.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 86MNLPUJYP;
 				INFOPLIST_FILE = ILDiligence/Info.plist;

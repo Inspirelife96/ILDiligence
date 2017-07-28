@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ILDBaseViewController.h"
 
-@interface ILDTaskListViewController : UIViewController
+@interface ILDTaskListViewController : ILDBaseViewController
 
 @end

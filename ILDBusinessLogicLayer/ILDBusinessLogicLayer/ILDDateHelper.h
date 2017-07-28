@@ -21,9 +21,21 @@
 + (NSString *)minutesFormatBySeconds:(CGFloat)seconds;
 
 + (NSArray *)weekDaysList;
-+ (NSArray *)monthNameList;
++ (NSArray *)monthList;
 + (NSArray *)hourList;
 
 + (NSString *)weekDaysName:(NSInteger)index;
+
++ (NSArray *)diligenceTimeList;
++ (NSArray *)diligenceTimeType;
+
++ (NSArray *)restTimeList;
++ (NSArray *)restTimeType;
+
++ (NSArray *)alertHourList;
++ (NSArray *)alertMinuteList;
+
++ (NSString *)dateToString:(NSDate *)date withForamt:(NSString *)format;
++ (NSDate *)stringToDate:(NSString *)dateString withForamt:(NSString *)format;
 
 @end

@@ -1,6 +1,6 @@
 //
 //  ILDScreenshotImageManager.h
-//  energy
+//  ILDiligence
 //
 //  Created by Chen XueFeng on 2017/2/1.
 //  Copyright © 2017年 Chen XueFeng. All rights reserved.

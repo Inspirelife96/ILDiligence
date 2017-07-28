@@ -1,6 +1,6 @@
 //
 //  MusicHelper.m
-//  energy
+//  ILDiligence
 //
 //  Created by XueFeng Chen on 2017/2/21.
 //  Copyright © 2017年 Chen XueFeng. All rights reserved.
