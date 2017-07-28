@@ -52,8 +52,8 @@
                                         kTaskDataMusicName: self.musicName,
                                         kTaskDataDiligenceTime: self.diligenceTime,
                                         kTaskDataRestTime: self.restTime,
-                                        kTaskDataIsFocusModeEnabled: [NSNumber numberWithBool:self.isRestModeEnabled],
-                                        kTaskDataIsRestModeEnabled: [NSNumber numberWithBool:self.isFocusModeEnabled],
+                                        kTaskDataIsRestModeEnabled: [NSNumber numberWithBool:self.isRestModeEnabled],
+                                        kTaskDataIsFocusModeEnabled: [NSNumber numberWithBool:self.isFocusModeEnabled],
                                         kTaskDataIsMusicModeEnabled: [NSNumber numberWithBool:self.isMusicEnabled],
                                         kTaskDataIsAlertModeEnabled: [NSNumber numberWithBool:self.isAlertEnabled],
                                         kTaskDataAlertTime: self.alertTime

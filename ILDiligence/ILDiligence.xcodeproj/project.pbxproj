@@ -86,7 +86,6 @@
 		7FE7BC5C1E8A9410004C1166 /* ILDStatisticsHistoryBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC5B1E8A9410004C1166 /* ILDStatisticsHistoryBarChartView.m */; };
 		7FE7BC5F1E8A941E004C1166 /* ILDStatisticsHistoryPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BC5E1E8A941E004C1166 /* ILDStatisticsHistoryPieChartView.m */; };
 		97BDE321E86EEF08CDF49FFC /* Pods_sharedPods_ILDiligence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CEFF9102DE4A9A688449E8 /* Pods_sharedPods_ILDiligence.framework */; };
-		AB685580D55EB85184403339 /* Pods_ILDiligence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC173DA99E06C7B12BF4DF0 /* Pods_ILDiligence.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,8 +123,6 @@
 
 /* Begin PBXFileReference section */
 		229D9AE58422A2BFC110C8F6 /* Pods-sharedPods-ILDiligence.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPods-ILDiligence.release.xcconfig"; path = "../Pods/Target Support Files/Pods-sharedPods-ILDiligence/Pods-sharedPods-ILDiligence.release.xcconfig"; sourceTree = "<group>"; };
-		49E1C813C9767B44CA5A1468 /* Pods-ILDiligence.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ILDiligence.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ILDiligence/Pods-ILDiligence.release.xcconfig"; sourceTree = "<group>"; };
-		4CC173DA99E06C7B12BF4DF0 /* Pods_ILDiligence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ILDiligence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CEFF9102DE4A9A688449E8 /* Pods_sharedPods_ILDiligence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sharedPods_ILDiligence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8B2E481E8B4976004CD5DB /* ILDStatisticsHistoryDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsHistoryDataView.h; sourceTree = "<group>"; };
 		7F8B2E491E8B4976004CD5DB /* ILDStatisticsHistoryDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsHistoryDataView.m; sourceTree = "<group>"; };
@@ -268,7 +265,6 @@
 		7FE7BC5D1E8A941E004C1166 /* ILDStatisticsHistoryPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILDStatisticsHistoryPieChartView.h; sourceTree = "<group>"; };
 		7FE7BC5E1E8A941E004C1166 /* ILDStatisticsHistoryPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILDStatisticsHistoryPieChartView.m; sourceTree = "<group>"; };
 		E1AA241BCFE4559E59A17792 /* Pods-sharedPods-ILDiligence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPods-ILDiligence.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-sharedPods-ILDiligence/Pods-sharedPods-ILDiligence.debug.xcconfig"; sourceTree = "<group>"; };
-		EA183FC9F8E823A0A8F9A46E /* Pods-ILDiligence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ILDiligence.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ILDiligence/Pods-ILDiligence.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,7 +272,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB685580D55EB85184403339 /* Pods_ILDiligence.framework in Frameworks */,
 				7FA77A211E7CEACE00050A6A /* ILDNetworkLayer.framework in Frameworks */,
 				7FA77A241E7CEACE00050A6A /* ILDPersistenceLayer.framework in Frameworks */,
 				7FA77A1E1E7CEACE00050A6A /* ILDBusinessLogicLayer.framework in Frameworks */,
@@ -304,8 +299,6 @@
 		5FAE44DF33F22FE580471ABC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA183FC9F8E823A0A8F9A46E /* Pods-ILDiligence.debug.xcconfig */,
-				49E1C813C9767B44CA5A1468 /* Pods-ILDiligence.release.xcconfig */,
 				E1AA241BCFE4559E59A17792 /* Pods-sharedPods-ILDiligence.debug.xcconfig */,
 				229D9AE58422A2BFC110C8F6 /* Pods-sharedPods-ILDiligence.release.xcconfig */,
 			);
@@ -791,7 +784,6 @@
 				7FA77A231E7CEACE00050A6A /* ILDPersistenceLayer.framework */,
 				7FA77A201E7CEACE00050A6A /* ILDNetworkLayer.framework */,
 				7FA77A1D1E7CEACE00050A6A /* ILDBusinessLogicLayer.framework */,
-				4CC173DA99E06C7B12BF4DF0 /* Pods_ILDiligence.framework */,
 				50CEFF9102DE4A9A688449E8 /* Pods_sharedPods_ILDiligence.framework */,
 			);
 			name = Frameworks;
@@ -1203,7 +1195,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1AA241BCFE4559E59A17792 /* Pods-sharedPods-ILDiligence.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 86MNLPUJYP;
 				INFOPLIST_FILE = ILDiligence/Info.plist;
@@ -1218,7 +1210,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 229D9AE58422A2BFC110C8F6 /* Pods-sharedPods-ILDiligence.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 86MNLPUJYP;
 				INFOPLIST_FILE = ILDiligence/Info.plist;
