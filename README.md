@@ -9,28 +9,17 @@
  
 这边有一些我的开发分享： 
 
-[想法和原型](http://www.jianshu.com/p/999e0f708fe1)
-
-[勤之时 - 架构与工程组织结构](http://www.jianshu.com/p/67f209fe1b46)
-
-[勤之时 - 数据持久层的实现](http://www.jianshu.com/p/a45c4944b5ef)
-
-[勤之时 - 网络层的实现](http://www.jianshu.com/p/035e655eeb45)
-
-[勤之时 - 业务逻辑层](http://www.jianshu.com/p/dbb4b4b79f78)
-
-[勤之时 - Info.plist的改动](http://www.jianshu.com/p/d3db0d0d73d7)
-
-[勤之时 - 表示层（一）](http://www.jianshu.com/p/b34698df5fdc)
-
-[勤之时 - 表示层（二）](http://www.jianshu.com/p/d8c264daac66)
-
-[勤之时 - 表示层（三）](http://www.jianshu.com/p/0fb58d101eaa)
-
-[勤之时 - 表示层（四）](http://www.jianshu.com/p/37b1f5719a03)
-
-[勤之时 - 表示层（五）](http://www.jianshu.com/p/1115cdca10cc)
-
-大家喜欢的话请给个Star，🙏。
+[勤之时 - 想法和原型](https://inspirelife96.github.io/2017/01/26/diligence-app-session-1/)
+[勤之时 - 架构与工程组织结构](https://inspirelife96.github.io/2017/03/18/diligence-app-session-2/)
+[勤之时 - 数据持久层的实现](https://inspirelife96.github.io/2017/03/19/diligence-app-session-3/)
+[勤之时 - 网络层的实现](https://inspirelife96.github.io/2017/03/20/diligence-app-session-4/)
+[勤之时 - 业务逻辑层](https://inspirelife96.github.io/2017/03/22/diligence-app-session-5/)
+[勤之时 - Info.plist的改动](https://inspirelife96.github.io/2017/03/26/diligence-app-session-6/)
+[勤之时 - 表示层（一）](https://inspirelife96.github.io/2017/03/26/diligence-app-session-7/)
+[勤之时 - 表示层（二）](https://inspirelife96.github.io/2017/03/26/diligence-app-session-8/)
+[勤之时 - 表示层（三）](https://inspirelife96.github.io/2017/03/28/diligence-app-session-9/)
+[勤之时 - 表示层（四）](https://inspirelife96.github.io/2017/05/18/diligence-app-session-10/)
+[勤之时 - 表示层（五）](https://inspirelife96.github.io/2017/07/28/diligence-app-session-11/)
+[勤之时 - 总结](https://inspirelife96.github.io/2017/07/28/diligence-app-session-12)
 
  
